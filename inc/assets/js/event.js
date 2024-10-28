@@ -535,7 +535,7 @@ $('.prompt').fadeOut();
 
 
 
-//end ready function
+});//end ready function
 
 
 $(window).on('load', function () {
