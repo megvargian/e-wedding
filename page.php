@@ -262,7 +262,7 @@
                                                                     <div class="eventItem ev_time"><span>6:00 PM</span>
                                                                     </div>
                                                                     <div class="eventItem ev_icon"><span
-                                                                            style="mask-image: url(/sites/all/themes/basic/images/timeline_r2/rings.svg?r_1376579018); -webkit-mask-image: url(/sites/all/themes/basic/images/timeline_r2/rings.svg?r_1376579018);"></span>
+                                                                            style="mask-image: url(<?php echo get_template_directory_uri(); ?>/inc/assets/icons/rings.svg?r_1376579018); -webkit-mask-image: url(<?php echo get_template_directory_uri(); ?>/inc/assets/icons/rings.svg?r_1376579018);"></span>
                                                                     </div>
                                                                     <div class="eventItem ev_activity">
                                                                         <span>Ceremony</span></div>
@@ -271,7 +271,7 @@
                                                                     <div class="eventItem ev_time"><span>8:00 PM</span>
                                                                     </div>
                                                                     <div class="eventItem ev_icon"><span
-                                                                            style="mask-image: url(/sites/all/themes/basic/images/timeline_r2/food.svg?r_1376579018); -webkit-mask-image: url(/sites/all/themes/basic/images/timeline_r2/food.svg?r_1376579018);"></span>
+                                                                            style="mask-image: url(<?php echo get_template_directory_uri(); ?>/inc/assets/icons/food.svg?r_1376579018); -webkit-mask-image: url(<?php echo get_template_directory_uri(); ?>/inc/assets/icons/food.svg?r_1376579018);"></span>
                                                                     </div>
                                                                     <div class="eventItem ev_activity">
                                                                         <span>Dinner</span></div>
