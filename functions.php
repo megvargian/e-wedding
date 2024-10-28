@@ -129,8 +129,6 @@ function wp_bootstrap_starter_scripts() {
     // ============= Load Custom stylesheets =============
 
     wp_enqueue_style( 'host2media-swiper', get_template_directory_uri() . '/inc/assets/css/swiper.min.css' );
-    // wp_enqueue_style( 'host2media-custom_style', get_template_directory_uri() . '/inc/assets/css/custom_style.css', array(), '1.39' );
-    // wp_enqueue_style( 'host2media-responsive_style', get_template_directory_uri() . '/inc/assets/css/responsive.css', array(), '1.39' );
 
 	wp_enqueue_script('jquery');
 
@@ -179,9 +177,3 @@ function TimeIsBetweenTwoTimes($from, $till, $input) {
     return ($f <= $i && $i <= $t) || ($f <= $i->modify('+1 day') && $i <= $t);
 }
 
-function gutenberg_editor_assets() {
-  // Load the theme styles within Gutenberg.
-  wp_enqueue_style('my-gutenberg-editor-styles', get_theme_file_uri('/assets/gutenberg-editor-styles.css'), FALSE);
-}
-// Add backend styles for Gutenberg.
-add_action('enqueue_block_editor_assets', 'gutenberg_editor_assets');
