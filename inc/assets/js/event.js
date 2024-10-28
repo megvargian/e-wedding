@@ -84,18 +84,18 @@ jQuery(document).ready(function($) {
 	}
 	$('.ct_slider .story_slide.spacerSlide').remove();
 	var storySlider = $(".ct_slider #story_slider");
-	storySlider.slick({
-		'arrows':false,
-		'dots':false,
-		'slidesToShow': 1,
-		'slidesToScroll': 1,
-		'infinite': false,
-		'pauseOnFocus':false,
-		'pauseOnHover':false,
-		'vertical': VerticalNav,
-		'verticalSwiping':Verticalswipe,
-		'autoplay':false,
-	});
+	// storySlider.slick({
+	// 	'arrows':false,
+	// 	'dots':false,
+	// 	'slidesToShow': 1,
+	// 	'slidesToScroll': 1,
+	// 	'infinite': false,
+	// 	'pauseOnFocus':false,
+	// 	'pauseOnHover':false,
+	// 	'vertical': VerticalNav,
+	// 	'verticalSwiping':Verticalswipe,
+	// 	'autoplay':false,
+	// });
 
 	//Advanced Slick CustomAutoPlay
 	if(evAutoplaySpeed && evAutoplaySpeed > 0){
