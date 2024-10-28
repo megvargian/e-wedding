@@ -595,17 +595,17 @@
     <script>
     //sliderspeed update 1
     $(document).ready(function() {
-        // evBGSliderSpeed = 6;
-        // $(".HeroSlider_wrapper").slick({
-        //     'arrows': false,
-        //     'fade': true,
-        //     'autoplay': true,
-        //     'autoplaySpeed': 6000,
-        //     'pauseOnFocus': false,
-        //     'pauseOnHover': false,
-        //     'touchMove': false,
-        //     'draggable': false
-        // });
+        evBGSliderSpeed = 6;
+        $(".HeroSlider_wrapper").not('.slick-initialized').slick({
+            'arrows': false,
+            'fade': true,
+            'autoplay': true,
+            'autoplaySpeed': 6000,
+            'pauseOnFocus': false,
+            'pauseOnHover': false,
+            'touchMove': false,
+            'draggable': false
+        });
     });
     </script>
 </body>
