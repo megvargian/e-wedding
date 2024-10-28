@@ -32,9 +32,9 @@
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Lora:wght@400;600&amp;display=swap"
         rel="stylesheet">
 
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/card/slick.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/card/slick-theme.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/card/event.css?v957298_1730142647" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/slick.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/slick-theme.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/event.css?v957298_1730142647" rel="stylesheet">
     <script>
     var evAutoPlay = false;
     var evAutoplaySpeed = 1.0E+20;
@@ -42,14 +42,14 @@
     var VideoBufferPercent = 1;
     </script>
 
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/jquery-1.11.1.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/jquery.cookie.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/slick.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery-1.11.1.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.cookie.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
 
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/jquery.countdown.min.js?v957298_1730142647"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/leaves.js?v957298_1730142647"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/card/event.js?v957298_1730142647"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.countdown.min.js?v957298_1730142647"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js?v957298_1730142647"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/event.js?v957298_1730142647"></script>
 </head>
 
 <body class="card_ctype tpltype-1 card-lang-en ct_slider" data-new-gr-c-s-check-loaded="14.1204.0"
