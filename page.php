@@ -594,7 +594,7 @@
 
     <script>
     //sliderspeed update 1
-    $(document).ready(function() {
+    jQuery(document).ready(function($) {
         evBGSliderSpeed = 6;
         $(".HeroSlider_wrapper").slick({
             'arrows': false,
