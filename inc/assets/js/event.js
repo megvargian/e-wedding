@@ -82,7 +82,7 @@ jQuery(document).ready(function($) {
 		VerticalNav = true;
 		Verticalswipe = true;
 	}
-	// $('.ct_slider .story_slide.spacerSlide').remove();
+	$('.ct_slider .story_slide.spacerSlide').remove();
 	var storySlider = $(".ct_slider #story_slider");
 	storySlider.slick({
 		'arrows':false,
@@ -94,8 +94,7 @@ jQuery(document).ready(function($) {
 		'pauseOnHover':false,
 		'vertical': VerticalNav,
 		'verticalSwiping':Verticalswipe,
-		'autoplay':false
-
+		'autoplay':false,
 	});
 
 	//Advanced Slick CustomAutoPlay
