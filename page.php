@@ -442,13 +442,6 @@ Krystel
 
 
                         </div><!-- / #story_slider -->
-                        <div class="poweredBy">
-                            <a target="_blank" href="https://evantocards.com">
-                                <span class="spn_cont spn_lbl">Powered by</span>
-                                <span class="spn_cont spn_logo"><img src="/sites/default/files/evanto-spn.svg"></span>
-                            </a>
-                        </div>
-
                     </div>
 
                 </div>
