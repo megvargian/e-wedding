@@ -47,9 +47,9 @@
     <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
 
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.countdown.min.js?v957298_1730142647"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js?v957298_1730142647"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/event.js?v957298_1730142647"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.countdown.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/event.js"></script>
 </head>
 
 <body class="card_ctype tpltype-1 card-lang-en ct_slider" data-new-gr-c-s-check-loaded="14.1204.0"
