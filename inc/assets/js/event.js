@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function(e) {
 
 	var lang = $('#main').data('language');
 	var p_lbls = {
@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 	}
 	$('.ct_slider .story_slide.spacerSlide').remove();
 	var storySlider = $(".ct_slider #story_slider");
-	storySlider.not('.slick-initialized').slick({
+	storySlider.slick({
 		'arrows':false,
 		'dots':false,
 		'slidesToShow': 1,
@@ -94,7 +94,8 @@ jQuery(document).ready(function($) {
 		'pauseOnHover':false,
 		'vertical': VerticalNav,
 		'verticalSwiping':Verticalswipe,
-		'autoplay':false,
+		'autoplay':false
+
 	});
 
 	//Advanced Slick CustomAutoPlay
@@ -106,17 +107,17 @@ jQuery(document).ready(function($) {
 
 
 	if(evAutoPlay && $('#ios_audio_lockscreen').length){
-		storySlider.not('.slick-initialized').slick('slickPause');
+		storySlider.slick('slickPause');
 	}
 
 	storySlider.on('wheel', (function(e) {
 	  e.preventDefault();
 
 	  if (e.originalEvent.deltaY < 0) {
-		$(this).not('.slick-initialized').slick('slickPrev');
+		$(this).slick('slickPrev');
 	  } else {
 
-		$(this).not('.slick-initialized').slick('slickNext');
+		$(this).slick('slickNext');
 	  }
 	}));
 
@@ -176,7 +177,7 @@ jQuery(document).ready(function($) {
 
 	$('form#rsvp-event input, form#rsvp-event select').on('focus',function(){
 		if(evAutoPlay){
-			storySlider.not('.slick-initialized').slick('slickPause');
+			storySlider.slick('slickPause');
 		}
 		console.log('form focus');
 	});
@@ -311,14 +312,14 @@ jQuery(document).ready(function($) {
 						 //$.cookie('RSVPstate', '1');
 
 						if(evAutoPlay){
-							storySlider.not('.slick-initialized').slick('slickPlay');
+							storySlider.slick('slickPlay');
 						}
 					 }else{
 						 //alert('Something went wrong, please try again');
 						 RSVP_success_msg(data.msg);
 						  $('form#rsvp-event').removeClass('lock-form');
 						if(evAutoPlay){
-							storySlider.not('.slick-initialized').slick('slickPlay');
+							storySlider.slick('slickPlay');
 						}
 					 }
 				  },
@@ -475,14 +476,14 @@ $('#ios_audio_lockscreen').on('click',function(){
 	GuestName_fld_val = $('.form-wrapper .guestNames_dyn_wrapper').text();
 	$('form .form-field #full_name').val(GuestName_fld_val);
 
-	$(".HeroSlider_wrapper").not('.slick-initialized').slick('slickPlay');
+	$(".HeroSlider_wrapper").slick('slickPlay');
 
 	//TriggerPrompt();
 
 	if(!isCoverPhoto){
 		if(evtCount > evBGSliderSpeed ){
 			console.log('jump to next slide');
-			$(".HeroSlider_wrapper").not('.slick-initialized').slick('slickNext');
+			$(".HeroSlider_wrapper").slick('slickNext');
 
 		}else{
 			console.log('do nothing');
@@ -537,14 +538,14 @@ $('.prompt').fadeOut();
 });//end ready function
 
 
-jQuery(document).ready(function($) {
+$(window).on('load', function () {
 
 	$('#preloaderCont').fadeOut();
 	$('form .form-field #full_name, form .form-field #npersons, .form-field select#guests').val('');
 	//$('form .form-field #npersons, .form-field select#guests').val('');
 	$('form .form-field.fld-npersons').hide();
 
-	$(".HeroSlider_wrapper").not('.slick-initialized').slick('slickPause');
+	$(".HeroSlider_wrapper").slick('slickPause');
 
 	evtCount = 0;
 	evTimer = setInterval(function(){
@@ -556,7 +557,7 @@ jQuery(document).ready(function($) {
 	}
 
 	if(!IsMobile()){
-		$(".HeroSlider_wrapper").not('.slick-initialized').slick('slickPlay');
+		$(".HeroSlider_wrapper").slick('slickPlay');
 		PlayBgVido();
 		BufferVideo(VideoBufferPercent);
 	}
@@ -683,7 +684,7 @@ function RunPrompter(){
 	},2000);
 
 
-	  var storySlidesCount = $(".ct_slider #story_slider").not('.slick-initialized').slick('getSlick').slideCount;
+	  var storySlidesCount = $(".ct_slider #story_slider").slick('getSlick').slideCount;
 	  var NeedPrompter = true;
 	  intervalId = null;
 
@@ -815,11 +816,11 @@ function removeEmojis(inputString) {
 
 
 	var storySliderTimer = setInterval(function(){
-		storySlider.not('.slick-initialized').slick('next');
+		storySlider.slick('next');
 	},PlaySpeed);
 
 	storySlider.on('afterChange', function() {
-		CurrentSlideNum = storySlider.not('.slick-initialized').slick('slickCurrentSlide');
+		CurrentSlideNum = storySlider.slick('slickCurrentSlide');
 		if(CurrentSlideNum == StorySlidesCount -1){
 			clearInterval(storySliderTimer);
 		}
