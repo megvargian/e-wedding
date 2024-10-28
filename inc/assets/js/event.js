@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) {
-	$(".slider").not('.slick-initialized').slick()
 
 	var lang = $('#main').data('language');
 	var p_lbls = {
@@ -85,7 +84,7 @@ jQuery(document).ready(function($) {
 	}
 	$('.ct_slider .story_slide.spacerSlide').remove();
 	var storySlider = $(".ct_slider #story_slider");
-	storySlider.slick({
+	storySlider.not('.slick-initialized').slick({
 		'arrows':false,
 		'dots':false,
 		'slidesToShow': 1,
