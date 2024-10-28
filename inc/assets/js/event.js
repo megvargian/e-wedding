@@ -1,3 +1,4 @@
+jQuery(document).ready(function($) {
 
 	var lang = $('#main').data('language');
 	var p_lbls = {
