@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+	$(".slider").not('.slick-initialized').slick()
 
 	var lang = $('#main').data('language');
 	var p_lbls = {
