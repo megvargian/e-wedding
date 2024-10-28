@@ -76,7 +76,7 @@ function createALeaf(folder)
 		maxRandvar = 6;
 	}
     /* Randomly choose a leaf image and assign it to the newly created element */
-    image.src = '/sites/default/files/event/petals/'+folder+'/realLeaf' + randomInteger(1, maxRandvar) + '.png';
+    image.src = 'https://mk.h2m.me/wp-content/themes/main/inc/assets/icons/realLeaf' + randomInteger(1, maxRandvar) + '.png';
     leafDiv.style.top = "115%";
 
 	var screenWidth = $(window).width();
