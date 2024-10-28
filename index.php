@@ -65,7 +65,7 @@
 
 
         <div id="leafContainer" data-image="white_petals" class="white_petals">
-            <div
+            <!-- <div
                 style="top: 115%; left: 408px; animation-name: fade, drop; animation-duration: 31.1197s, 31.1197s; animation-delay: 0.260599s, 0.260599s;">
                 <img src="/sites/default/files/event/petals/white_petals/realLeaf1.png"
                     style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.253s;"></div>
@@ -144,7 +144,7 @@
             <div
                 style="top: 115%; left: 1122px; animation-name: fade, drop; animation-duration: 24.4653s, 24.4653s; animation-delay: 0.645349s, 0.645349s;">
                 <img src="/sites/default/files/event/petals/white_petals/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.0777s;"></div>
+                    style="animation-name: clockwiseSpin; animation-duration: 12.0777s;"></div> -->
         </div>
         <div class="main_wrapper" style="height: 635px; width: 375px;">
 
