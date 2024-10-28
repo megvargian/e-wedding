@@ -129,7 +129,6 @@ function wp_bootstrap_starter_scripts() {
     // ============= Load Custom stylesheets =============
 
     wp_enqueue_style( 'host2media-swiper', get_template_directory_uri() . '/inc/assets/css/swiper.min.css' );
-    wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/inc/assets/css/style.css', array(), '1.0');
     // wp_enqueue_style( 'host2media-custom_style', get_template_directory_uri() . '/inc/assets/css/custom_style.css', array(), '1.39' );
     // wp_enqueue_style( 'host2media-responsive_style', get_template_directory_uri() . '/inc/assets/css/responsive.css', array(), '1.39' );
 
