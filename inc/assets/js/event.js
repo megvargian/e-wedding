@@ -1,66 +1,66 @@
 $(document).ready(function(e) {
-
+	
 	var lang = $('#main').data('language');
 	var p_lbls = {
 					'required_fld':{
 									'en':'Required field',
-									'ar':'Ø­Ù‚Ù„ Ø¥Ø¬Ø¨Ø§Ø±ÙŠ'
+									'ar':'حقل إجباري'
 									},
 					'pin_empty':{
 									'en':'Enter pin',
-									'ar':'Ø£Ø¯Ø®Ù„ Ø§Ù„Ø±Ù…Ø²'
+									'ar':'أدخل الرمز'
 									},
 					'pin_mismatch':{
 									'en':'Wrong pin',
-									'ar':'Ø®Ø·Ø£ ÙÙŠ Ø§Ù„Ø±Ù…Ø²'
+									'ar':'خطأ في الرمز'
 									},
 					'lbl_days':{
 									'en':'Days',
-									'ar':'ÙŠÙˆÙ…'
-								},
+									'ar':'يوم'
+								},									
 					'lbl_hrs':{
 									'en':'Hours',
-									'ar':'Ø³Ø§Ø¹Ø©'
+									'ar':'ساعة'
 								},
 					'lbl_mins':{
 									'en':'Minutes',
-									'ar':'Ø¯Ù‚ÙŠÙ‚Ø©'
+									'ar':'دقيقة'
 								},
 					'lbl_secs':{
 									'en':'Seconds',
-									'ar':'Ø«Ø§Ù†ÙŠØ©'
+									'ar':'ثانية'
 								},
 					'lbl_np_zero':{
 									'en':'Number of attendees can\'t be zero',
-									'ar':'Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠÙƒÙˆÙ† Ø¹Ø¯Ø¯ Ø§Ù„Ø­Ø§Ø¶Ø±ÙŠÙ† ØµÙØ±Ù‹Ø§'
+									'ar':'لا يمكن أن يكون عدد الحاضرين صفرًا'
 								},
 					'lbl_np_max':{
 									'en':'Number of attendees can\'t be more than ',
-									'ar':'Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠÙƒÙˆÙ† Ø¹Ø¯Ø¯ Ø§Ù„Ø­Ø§Ø¶Ø±ÙŠÙ† Ø£ÙƒØ«Ø± Ù…Ù† '
+									'ar':'لا يمكن أن يكون عدد الحاضرين أكثر من '
 								},
 					'lbl_already_RSVP':{
 						'en':'you have already sent your RSVP',
-						'ar':'Ù„Ù‚Ø¯ Ù‚Ù…Øª Ø¨Ø§Ù„Ø±Ø¯ Ù…Ø³Ø¨Ù‚Ø§Ù‹'
+						'ar':'لقد قمت بالرد مسبقاً'
 					            },
 					'emojis_error':{
 						'en':'Please enter text without emojis',
-						'ar':'Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø¥Ø¯Ø®Ø§Ù„ Ù†Øµ Ø¨Ø¯ÙˆÙ† Ø±Ù…ÙˆØ² ØªØ¹Ø¨ÙŠØ±ÙŠØ© (emojis)'
+						'ar':'الرجاء إدخال نص بدون رموز تعبيرية (emojis)'
 						},
 					'maxlength_error':{
 						'en':'The message can\'t be more than 120 characters',
-						'ar':'Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ù† ÙŠÙƒÙˆÙ† Ù†Øµ Ø§Ù„Ø±Ø³Ø§Ù„Ø© Ø£ÙƒØ«Ø± Ù…Ù† 120 Ø­Ø±ÙÙ‹Ø§'
+						'ar':'لا يمكن أن يكون نص الرسالة أكثر من 120 حرفًا'
 						}
 							};
-
+	
 	appHeight(tplID);
 
 	$(".HeroSlider_wrapper").on('init', function(event, slick, direction){
 		setTimeout(function(){
 			$(".HeroSlider_wrapper").addClass('ini_zoom');
 		},300);
-
-	});
-
+	  
+	});	
+    
 /*	$(".HeroSlider_wrapper").slick({
 		'arrows':false,
 		'fade':true,
@@ -70,14 +70,14 @@ $(document).ready(function(e) {
 		'pauseOnHover':false,
 		'touchMove':false,
 		'draggable':false
-
+	
 	});*/
-
-
+	
+	
 	var VerticalNav = false;
 	var Verticalswipe = false;
 
-
+	
 	if($(window).width()>1024 || isVertical){
 		VerticalNav = true;
 		Verticalswipe = true;
@@ -95,9 +95,9 @@ $(document).ready(function(e) {
 		'vertical': VerticalNav,
 		'verticalSwiping':Verticalswipe,
 		'autoplay':false
-
+		
 	});
-
+    
 	//Advanced Slick CustomAutoPlay
 	if(evAutoplaySpeed && evAutoplaySpeed > 0){
 		if ($('#audioLockScreen').length === 0) {
@@ -112,21 +112,21 @@ $(document).ready(function(e) {
 
 	storySlider.on('wheel', (function(e) {
 	  e.preventDefault();
-
+	
 	  if (e.originalEvent.deltaY < 0) {
 		$(this).slick('slickPrev');
 	  } else {
-
+		
 		$(this).slick('slickNext');
 	  }
-	}));
+	}));	
 
-
+	
 	slidesCount = $("#story_slider .story_slide").length - 1;
-
+	
 	var audio_flag = 0;
 	var bgAudio = document.getElementById('bgmusic');
-
+	
 	$(".ct_slider #story_slider").on('beforeChange', function(e, slick, currentSlide, nextSlide){
 	  //console.log(nextSlide);
 	  if(nextSlide != 0){
@@ -140,11 +140,11 @@ $(document).ready(function(e) {
 		 		bgAudio.play();
 			 }
 			 audio_flag++;
-
+			
 		 }
-
+		 
 	   }else{
-		 $('.introLineIMG, .introLineTXT_parent').removeClass('hideIntroLine');
+		 $('.introLineIMG, .introLineTXT_parent').removeClass('hideIntroLine'); 
 		 $('.intro_screen').removeClass('dim');
 		 if($('#music_player_BTN').length>0){
 			 $('#music_player_BTN').removeClass('showAudioBtn');
@@ -155,38 +155,38 @@ $(document).ready(function(e) {
 			  $('.ct_slider #sec_story').addClass('showPoweredBy');
 	      },300);
 	   }else{
-		 $('.ct_slider #sec_story').removeClass('showPoweredBy');
-	   }
-
-
+		 $('.ct_slider #sec_story').removeClass('showPoweredBy');  
+	   }	   
+	   
+	   
 		var sn_el = slick.$slides.get(nextSlide);
 	    if($(sn_el).hasClass('IMGslide')){
 		   $(sn_el).addClass('animIMG');
 	    }
 		setTimeout(function(){
-			$(sn_el).siblings().removeClass('animIMG');
+			$(sn_el).siblings().removeClass('animIMG');	
 		},300);
-
-
+		
+		
 		var progress = (nextSlide/slidesCount) * 100;
 		$('.progress_bar .progress_state').css('width',progress+'%');
-
-
-	});
-
-
+			
+		
+	});	
+	
+	
 	$('form#rsvp-event input, form#rsvp-event select').on('focus',function(){
 		if(evAutoPlay){
 			storySlider.slick('slickPause');
 		}
 		console.log('form focus');
 	});
-
+	
 	var isAttending = false;
 	$('.form-field select#guests').on('change',function(){
 		if(isNPvar){
 			var np_selection = $(this).val();
-
+			
 			if(np_selection == 1){
 				$('.form-field.fld-npersons').fadeIn();
 				isAttending = true;
@@ -209,7 +209,7 @@ $(document).ready(function(e) {
 		}
 	});
 
-
+	
 
 
 	//submit RSVP
@@ -225,7 +225,7 @@ $(document).ready(function(e) {
 
 		var rsvp_guests = $('select#guests').val();
 		var rsvp_email = $('input#rsvp_email').val();
-
+		
 		var couple_name = $('input#couple_name').val();
 		var cardID = $('input#nid').val();
 		var uid = $('input#uid').val();
@@ -233,17 +233,17 @@ $(document).ready(function(e) {
 		var wed_date = $('input#wed_date').val();
 		var cmessage = $('form .form-field #message').val();
 		var emojiRegex = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g
-
+		
 		if (emojiRegex.test(cmessage)) {
 			isValid = false;
 			$('form .form-field #message').parent().append('<div class="fld_error">'+p_lbls.emojis_error[lang]+'</div>');
 			$('form .form-field #message').addClass('error_input');
 		}
-
+		
 		if(isNPvar){
 		 rsvp_npersons = $('select#npersons').val();
 		}
-
+		
 		if(rsvp_name == ''){
 			isValid = false;
 			$('input#full_name').parent().append('<div class="fld_error">'+p_lbls.required_fld[lang]+'</div>');
@@ -266,21 +266,21 @@ $(document).ready(function(e) {
 						isValid = false;
 						$('select#npersons').parent().append('<div class="fld_error">'+p_lbls.lbl_np_zero[lang]+'</div>');
 						$('select#npersons').addClass('error_input');
-					}
+					}					
 					if(rsvp_npersons > npCount){
 						isValid = false;
 						$('select#npersons').parent().append('<div class="fld_error">'+p_lbls.lbl_np_max[lang]+npCount+'</div>');
 						$('select#npersons').addClass('error_input');
-					}
-
+					}						
+					
 				}
 
 
-
-            }
+				
+            }			
 		}
 
-
+		
 		if(isValid){
 			//alert('good');
 			rsvp_name = Base64.encode(''+rsvp_name+'');
@@ -289,15 +289,15 @@ $(document).ready(function(e) {
 			var _data = {"name":rsvp_name, "guests":rsvp_guests, "email":rsvp_email, "title":couple_name,"nid":cardID, "override_nid":override_nid, "uid":uid,"wed_date":wed_date,"n_persons":rsvp_npersons,"message":cmessage};
 			_data = JSON.stringify(_data);
 			console.log(_data);
-
+			
 			var postData = "pdata="+_data;
 			console.log(postData);
-
+			
 			$('form#rsvp-event').addClass('lock-form');
 
-
+			
 			//if(!$.cookie('RSVPstate')){
-
+			
 			$.ajax({
 				type: "POST",
 				url: '/rsvp',
@@ -308,55 +308,55 @@ $(document).ready(function(e) {
 					 console.log(data);
 					 if(data.status){
 						 RSVP_success_msg(data.msg);
-						 $('form#rsvp-event').removeClass('lock-form');
+						 $('form#rsvp-event').removeClass('lock-form');	
 						 //$.cookie('RSVPstate', '1');
-
+						 
 						if(evAutoPlay){
 							storySlider.slick('slickPlay');
-						}
+						}						 
 					 }else{
 						 //alert('Something went wrong, please try again');
 						 RSVP_success_msg(data.msg);
 						  $('form#rsvp-event').removeClass('lock-form');
 						if(evAutoPlay){
 							storySlider.slick('slickPlay');
-						}
-					 }
+						}							  
+					 }					 
 				  },
 				 error: function(){
-					alert('Error: Something went wrong, please try again');
-					 $('form#rsvp-event').removeClass('lock-form');
+					alert('Error: Something went wrong, please try again'); 
+					 $('form#rsvp-event').removeClass('lock-form');	
 				 }
-			});
-			// JavaScript Document
-
+			});			
+			// JavaScript Document	
+			
 		//}else{
-		//	$('form#rsvp-event').removeClass('lock-form');
+		//	$('form#rsvp-event').removeClass('lock-form');	
 		//	var cardlang = $('#main').data('language');
 		//	RSVP_success_msg(p_lbls.lbl_already_RSVP[cardlang]);
-
+			
 		//}
-
-
-
+			
+			
+			
 		}
-
+		
 		e.preventDefault();
-
+			
 	 });
-
-
+	 
+	 
 	 $('form#unlock_preview').on('submit',function(e){
 
 		var db_pin = $('form#unlock_preview input#db_pass').val();
 		var entered_pin = $('form#unlock_preview input#password').val();
 		entered_pin = entered_pin.toLowerCase();
-
+		
 		$('form#unlock_preview span.form-error').remove();
-
+		
 		var Validpin = true;
 		var pin_msg = '';
-
+		
 		if(entered_pin == ''){
 			Validpin = false;
 			pin_msg = p_lbls.pin_empty[lang];
@@ -366,24 +366,24 @@ $(document).ready(function(e) {
 				pin_msg = p_lbls.pin_mismatch[lang];
 			}
 		}
-
+		
 		if(Validpin){
 			$('.event_lock').fadeOut();
 		}else{
-
+			
 			$(this).append('<span class="form-error">'+pin_msg+'</span>');
 		}
-
+		 
 		 e.preventDefault();
 	 });
-
-
+	 
+	
 
 	var deadline = $('#clock_wed').data('deadline');
-
-
+	
+	
 $('#clockTimer').countdown(deadline, function(event) {
-
+	
 	var clkHTML =''
 	+'<div id="tdays" class="tcell t_days">'
 		+'<span class="t_val daysVal">%D</span>'
@@ -400,8 +400,8 @@ $('#clockTimer').countdown(deadline, function(event) {
 	+'<div id="tsecs" class="tcell t_secs">'
 		+'<span class="t_val secsVal">%S</span>'
 		+'<span class="t_label">'+p_lbls.lbl_secs[lang]+'</span>'
-	 +'</div>';
-
+	 +'</div>'; 
+	 
 	 if(lang=='ar'){
 	clkHTML =''
 	+'<div id="tsecs" class="tcell t_secs">'
@@ -421,15 +421,15 @@ $('#clockTimer').countdown(deadline, function(event) {
 		+'<span class="t_label">'+p_lbls.lbl_days[lang]+'</span>'
 	 +'</div>';
 	 }
-
-
-
+	 
+	
+	
   var $this = $(this).html(event.strftime(clkHTML)).on('finish.countdown', function(event) {
-
+		 
 		 	$('#clock_wed').remove();
 	});
-});
-
+});		
+	
 $('#music_player_BTN').on('click',function(){
 	togglePause();
 });
@@ -442,7 +442,7 @@ $('#music_player_BTN').on('click',function(){
 if(IsMobile() && $('#ios_audio_lockscreen').length>0){
 	$('#ios_audio_lockscreen').css('display','block');
 	$('.main_wrapper').addClass('iosAudio');
-
+	
 	$('.ct_article #sec_story').css('opacity',0);
 }
 
@@ -462,29 +462,29 @@ $('#ios_audio_lockscreen').on('click',function(){
 	if(myAudio_start){
 		myAudio_start.play();
 	}
-
+	
 	$(this).fadeOut(300);
 	setTimeout(function(){
 		$('.main_wrapper').removeClass('iosAudio');
 		$('.story_slide.helperSlide').addClass('hlpIndicShow');
 	},400);
-
+	
 	if(evAutoPlay){
 		customAutoPlay(evAutoplaySpeed);
 	}
 
 	GuestName_fld_val = $('.form-wrapper .guestNames_dyn_wrapper').text();
 	$('form .form-field #full_name').val(GuestName_fld_val);
-
+	
 	$(".HeroSlider_wrapper").slick('slickPlay');
 
 	//TriggerPrompt();
-
+    
 	if(!isCoverPhoto){
 		if(evtCount > evBGSliderSpeed ){
 			console.log('jump to next slide');
 			$(".HeroSlider_wrapper").slick('slickNext');
-
+			
 		}else{
 			console.log('do nothing');
 		}
@@ -499,7 +499,7 @@ $('#ios_audio_lockscreen').on('click',function(){
 	 BufferVideo(VideoBufferPercent);
 
 	RunPrompter();
-
+  
 });//end start INTRO Click
 
 //SlideBg();
@@ -535,16 +535,16 @@ $('.prompt').fadeOut();
 
 
 
-});//end ready function
+});//end ready function 
 
 
 $(window).on('load', function () {
-
+	
 	$('#preloaderCont').fadeOut();
 	$('form .form-field #full_name, form .form-field #npersons, .form-field select#guests').val('');
 	//$('form .form-field #npersons, .form-field select#guests').val('');
 	$('form .form-field.fld-npersons').hide();
-
+	
 	$(".HeroSlider_wrapper").slick('slickPause');
 
 	evtCount = 0;
@@ -585,10 +585,10 @@ function isBuffered(BufferLimit) {
   var vbLimit = BufferLimit;
   if(BufferLimit<1){
 	vbLimit = 1;
-  }
+  }	
   if(BufferLimit>99){
 	vbLimit = 99;
-  }
+  }	
   var BGvideo = document.getElementById("vidbgcomp");
   if (BGvideo.buffered.length > 0) {
     var buffered = BGvideo.buffered.end(0);
@@ -610,7 +610,7 @@ function BufferVideo(per_buffer_val){
 				clearInterval(vidBufferTimer);
 				$('video#vidbgcomp').removeClass('hideVideo');
 				restartVideo();
-
+				
 			  } else {
 				console.log("below buffer threshold");
 			  }
@@ -621,11 +621,11 @@ function BufferVideo(per_buffer_val){
 
 
 function IsMobile(){
-	var isMobile = false;
+	var isMobile = false;	
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 	isMobile = true;
 	}
-	return isMobile;
+	return isMobile;	
 }
 
 function ShowPrompt(){
@@ -655,14 +655,14 @@ function RunSwipeUpHelper(){
 			_counter++;
 			if(_counter % 2 !== 0){
 				if($("html, body").scrollTop()<100){
-						ShowSwipeUp();
-						//console.log('animation counter: '+_counter);
+						ShowSwipeUp();	
+						//console.log('animation counter: '+_counter);	
 				}else{
 					HideSwipeUp();
 					clearInterval(scrollTimer);
 				}
-			}
-		}, 6300); //repeat
+			}				
+		}, 6300); //repeat 
 	}
 
 	$(window).on('scroll', function () {
@@ -682,22 +682,22 @@ function RunPrompter(){
 		  }, 12000); //repeat every 12 sec
 
 	},2000);
+	
 
-
-	  var storySlidesCount = $(".ct_slider #story_slider").slick('getSlick').slideCount;
+	  var storySlidesCount = $(".ct_slider #story_slider").slick('getSlick').slideCount; 
 	  var NeedPrompter = true;
 	  intervalId = null;
-
+	  
 	  $(".ct_slider #story_slider").on('afterChange', function() {
 		$('.prompt').hide();
 		  clearInterval(intervalId_start);
 		  var userDidSwipe = false;
-
+	  
 		  var current_slide_classes = $('.ct_slider #story_slider .slick-current').attr('class');
 		  var ExecludeSlides = ['rsvp','endFrame'];
-
+		  
 		  var containsExcludedValue = ExecludeSlides.some(value => current_slide_classes.includes(value));
-
+		  
 		  if (!containsExcludedValue) {
 			  console.log('The string does not contain any excluded value.');
 			  if(NeedPrompter){
@@ -715,14 +715,14 @@ function RunPrompter(){
 					  }
 					  }, 5000);
 				  }//end if need prompter
-
-
+			  
+	  
 		  } else {
 			  console.log('The string contains an excluded value.');
 			  NeedPrompter = false;
 		  }
 			  // Set a timeout to check if the user swiped within 5 seconds
-
+	  
 		  $(".ct_slider #story_slider").on('afterChange', function() {
 			  // Clear the timeout and update the flag when the user swipes
 			  $('.prompt').hide();
@@ -730,14 +730,14 @@ function RunPrompter(){
 			  clearInterval(intervalId);
 			  userDidSwipe = true;
 			  console.log('prompter afterChange');
-		  });
-
-
+		  });	
+		  
+	  
 		  $(".ct_slider #story_slider").on('beforeChange', function() {
 			  // Clear the timeout and update the flag when the user swipes
 			  $('.prompt').hide();
 			  console.log('prompter beforeChange');
-		  });
+		  });	
 	  });
 
 
@@ -750,26 +750,26 @@ function togglePause() {
 
 
 function SlideBg(){
-
+	
 	var imgMob,imgDesk;
 	$('.ct_slider .story_slide').each(function(index, element) {
-
+		
 		imgMob = $(this).data('bgmob');
 		imgDesk = $(this).data('bgdesk');
-
+			
 		if($(window).width()>768){
 			$(this).css('background-image','url('+imgDesk+')');
 		}else{
 			$(this).css('background-image','url('+imgMob+')');
 		}
-
-
+		
+        
     });//end foreach
 }
 
 
 function appHeight(opt){
-
+	
 	var idealHeight = 635;
 	var windowHeight = $(window).height();
 	var windowWidth = $(window).width();
@@ -785,23 +785,23 @@ function appHeight(opt){
 	else{
 		appframe_height = windowHeight;
 	}
-
+	
 	if(windowWidth > 680){
 		appframe_width = 375;
 	}else{
 		appframe_width = windowWidth;
 	}
 
-
+	
 	$('.ct_slider #main .main_wrapper, .ct_slider .story_slide').css('height',appframe_height+'px');
 	$('#main .main_wrapper, .ct_article #sec_intro').css('width',appframe_width+'px');
-
+	
 }
 
 
 function RSVP_success_msg(msg){
 	$('.story_slide.rsvp .form-wrapper').addClass('onSuccess');
-	$('.ajax_success_message_wrapper').html(msg);
+	$('.ajax_success_message_wrapper').html(msg);		
 }
 
 function removeEmojis(inputString) {
@@ -824,9 +824,9 @@ function removeEmojis(inputString) {
 		if(CurrentSlideNum == StorySlidesCount -1){
 			clearInterval(storySliderTimer);
 		}
-
+		
 	});
- }
+ } 
 
 
 var Base64 = {
@@ -866,10 +866,10 @@ var Base64 = {
             output = output +
                 this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
                 this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
-        } // Whend
+        } // Whend 
 
         return output;
-    } // End Function encode
+    } // End Function encode 
 
 
     // public method for decoding
@@ -904,12 +904,12 @@ var Base64 = {
                 output = output + String.fromCharCode(chr3);
             }
 
-        } // Whend
+        } // Whend 
 
         output = Base64._utf8_decode(output);
 
         return output;
-    } // End Function decode
+    } // End Function decode 
 
 
     // private method for UTF-8 encoding
@@ -938,10 +938,10 @@ var Base64 = {
                 utftext += String.fromCharCode((c & 63) | 128);
             }
 
-        } // Next n
+        } // Next n 
 
         return utftext;
-    } // End Function _utf8_encode
+    } // End Function _utf8_encode 
 
     // private method for UTF-8 decoding
     ,_utf8_decode: function (utftext)
@@ -974,9 +974,9 @@ var Base64 = {
                 i += 3;
             }
 
-        } // Whend
+        } // Whend 
 
         return string;
-    } // End Function _utf8_decode
+    } // End Function _utf8_decode 
 
 }
