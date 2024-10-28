@@ -538,7 +538,7 @@ $('.prompt').fadeOut();
 });//end ready function
 
 
-$(window).on('load', function () {
+jQuery(document).ready(function($) {
 
 	$('#preloaderCont').fadeOut();
 	$('form .form-field #full_name, form .form-field #npersons, .form-field select#guests').val('');
