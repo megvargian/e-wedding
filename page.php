@@ -596,7 +596,7 @@
     //sliderspeed update 1
     $(document).ready(function() {
         evBGSliderSpeed = 6;
-        $(".HeroSlider_wrapper").not('.slick-initialized').slick({
+        $(".HeroSlider_wrapper").slick({
             'arrows': false,
             'fade': true,
             'autoplay': true,
