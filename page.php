@@ -71,89 +71,88 @@
 
 
 	<div id="leafContainer" data-image="white_petals" class="white_petals">
-            <div
-                style="top: 115%; left: 408px; animation-name: fade, drop; animation-duration: 31.1197s, 31.1197s; animation-delay: 0.260599s, 0.260599s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf1.png"
-                    style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.253s;"></div>
-            <div
-                style="top: 115%; left: 3443px; animation-name: fade, drop; animation-duration: 29.2537s, 29.2537s; animation-delay: 0.474244s, 0.474244s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.5149s;"></div>
-            <div
-                style="top: 115%; left: 1751px; animation-name: fade, drop; animation-duration: 35.3719s, 35.3719s; animation-delay: 0.860803s, 0.860803s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 11.4674s;"></div>
-            <div
-                style="top: 115%; left: 3058px; animation-name: fade, drop; animation-duration: 19.0399s, 19.0399s; animation-delay: 0.48591s, 0.48591s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 13.6061s;"></div>
-            <div
-                style="top: 115%; left: 2523px; animation-name: fade, drop; animation-duration: 26.9003s, 26.9003s; animation-delay: 0.0124487s, 0.0124487s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 19.9146s;"></div>
-            <div
-                style="top: 115%; left: 1101px; animation-name: fade, drop; animation-duration: 38.9233s, 38.9233s; animation-delay: 0.478761s, 0.478761s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.5259s;"></div>
-            <div
-                style="top: 115%; left: 1666px; animation-name: fade, drop; animation-duration: 18.2938s, 18.2938s; animation-delay: 0.917121s, 0.917121s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf2.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.2169s;"></div>
-            <div
-                style="top: 115%; left: 1099px; animation-name: fade, drop; animation-duration: 17.9937s, 17.9937s; animation-delay: 0.142975s, 0.142975s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 11.8244s;"></div>
-            <div
-                style="top: 115%; left: 129px; animation-name: fade, drop; animation-duration: 25.1184s, 25.1184s; animation-delay: 0.896172s, 0.896172s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 14.6661s;"></div>
-            <div
-                style="top: 115%; left: 1617px; animation-name: fade, drop; animation-duration: 32.8823s, 32.8823s; animation-delay: 0.777979s, 0.777979s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.8699s;"></div>
-            <div
-                style="top: 115%; left: 3478px; animation-name: fade, drop; animation-duration: 29.4574s, 29.4574s; animation-delay: 0.646044s, 0.646044s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 14.3466s;"></div>
-            <div
-                style="top: 115%; left: 3780px; animation-name: fade, drop; animation-duration: 37.616s, 37.616s; animation-delay: 0.199563s, 0.199563s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 19.5312s;"></div>
-            <div
-                style="top: 115%; left: 875px; animation-name: fade, drop; animation-duration: 39.3852s, 39.3852s; animation-delay: 0.451859s, 0.451859s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.9576s;"></div>
-            <div
-                style="top: 115%; left: 2745px; animation-name: fade, drop; animation-duration: 19.6872s, 19.6872s; animation-delay: 0.0169523s, 0.0169523s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 19.57s;"></div>
-            <div
-                style="top: 115%; left: 720px; animation-name: fade, drop; animation-duration: 17.085s, 17.085s; animation-delay: 0.621656s, 0.621656s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 11.9002s;"></div>
-            <div
-                style="top: 115%; left: 853px; animation-name: fade, drop; animation-duration: 18.6733s, 18.6733s; animation-delay: 0.0526377s, 0.0526377s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf1.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 13.5545s;"></div>
-            <div
-                style="top: 115%; left: 912px; animation-name: fade, drop; animation-duration: 31.4573s, 31.4573s; animation-delay: 0.311779s, 0.311779s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 15.939s;"></div>
-            <div
-                style="top: 115%; left: 797px; animation-name: fade, drop; animation-duration: 38.0033s, 38.0033s; animation-delay: 0.00705858s, 0.00705858s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 16.7986s;"></div>
-            <div
-                style="top: 115%; left: 3501px; animation-name: fade, drop; animation-duration: 22.3841s, 22.3841s; animation-delay: 0.994278s, 0.994278s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
-                    style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.3467s;"></div>
-            <div
-                style="top: 115%; left: 1122px; animation-name: fade, drop; animation-duration: 24.4653s, 24.4653s; animation-delay: 0.645349s, 0.645349s;">
-                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
-                    style="animation-name: clockwiseSpin; animation-duration: 12.0777s;"></div>
-        </div>
+		<div
+			style="top: 115%; left: 408px; animation-name: fade, drop; animation-duration: 31.1197s, 31.1197s; animation-delay: 0.260599s, 0.260599s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf1.png"
+				style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.253s;"></div>
+		<div
+			style="top: 115%; left: 3443px; animation-name: fade, drop; animation-duration: 29.2537s, 29.2537s; animation-delay: 0.474244s, 0.474244s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.5149s;"></div>
+		<div
+			style="top: 115%; left: 1751px; animation-name: fade, drop; animation-duration: 35.3719s, 35.3719s; animation-delay: 0.860803s, 0.860803s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 11.4674s;"></div>
+		<div
+			style="top: 115%; left: 3058px; animation-name: fade, drop; animation-duration: 19.0399s, 19.0399s; animation-delay: 0.48591s, 0.48591s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 13.6061s;"></div>
+		<div
+			style="top: 115%; left: 2523px; animation-name: fade, drop; animation-duration: 26.9003s, 26.9003s; animation-delay: 0.0124487s, 0.0124487s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 19.9146s;"></div>
+		<div
+			style="top: 115%; left: 1101px; animation-name: fade, drop; animation-duration: 38.9233s, 38.9233s; animation-delay: 0.478761s, 0.478761s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 12.5259s;"></div>
+		<div
+			style="top: 115%; left: 1666px; animation-name: fade, drop; animation-duration: 18.2938s, 18.2938s; animation-delay: 0.917121s, 0.917121s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf2.png"
+				style="animation-name: clockwiseSpin; animation-duration: 12.2169s;"></div>
+		<div
+			style="top: 115%; left: 1099px; animation-name: fade, drop; animation-duration: 17.9937s, 17.9937s; animation-delay: 0.142975s, 0.142975s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 11.8244s;"></div>
+		<div
+			style="top: 115%; left: 129px; animation-name: fade, drop; animation-duration: 25.1184s, 25.1184s; animation-delay: 0.896172s, 0.896172s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 14.6661s;"></div>
+		<div
+			style="top: 115%; left: 1617px; animation-name: fade, drop; animation-duration: 32.8823s, 32.8823s; animation-delay: 0.777979s, 0.777979s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 12.8699s;"></div>
+		<div
+			style="top: 115%; left: 3478px; animation-name: fade, drop; animation-duration: 29.4574s, 29.4574s; animation-delay: 0.646044s, 0.646044s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 14.3466s;"></div>
+		<div
+			style="top: 115%; left: 3780px; animation-name: fade, drop; animation-duration: 37.616s, 37.616s; animation-delay: 0.199563s, 0.199563s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 19.5312s;"></div>
+		<div
+			style="top: 115%; left: 875px; animation-name: fade, drop; animation-duration: 39.3852s, 39.3852s; animation-delay: 0.451859s, 0.451859s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 12.9576s;"></div>
+		<div
+			style="top: 115%; left: 2745px; animation-name: fade, drop; animation-duration: 19.6872s, 19.6872s; animation-delay: 0.0169523s, 0.0169523s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 19.57s;"></div>
+		<div
+			style="top: 115%; left: 720px; animation-name: fade, drop; animation-duration: 17.085s, 17.085s; animation-delay: 0.621656s, 0.621656s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 11.9002s;"></div>
+		<div
+			style="top: 115%; left: 853px; animation-name: fade, drop; animation-duration: 18.6733s, 18.6733s; animation-delay: 0.0526377s, 0.0526377s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf1.png"
+				style="animation-name: clockwiseSpin; animation-duration: 13.5545s;"></div>
+		<div
+			style="top: 115%; left: 912px; animation-name: fade, drop; animation-duration: 31.4573s, 31.4573s; animation-delay: 0.311779s, 0.311779s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: clockwiseSpin; animation-duration: 15.939s;"></div>
+		<div
+			style="top: 115%; left: 797px; animation-name: fade, drop; animation-duration: 38.0033s, 38.0033s; animation-delay: 0.00705858s, 0.00705858s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 16.7986s;"></div>
+		<div
+			style="top: 115%; left: 3501px; animation-name: fade, drop; animation-duration: 22.3841s, 22.3841s; animation-delay: 0.994278s, 0.994278s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf4.png"
+				style="animation-name: counterclockwiseSpinAndFlip; animation-duration: 12.3467s;"></div>
+		<div
+			style="top: 115%; left: 1122px; animation-name: fade, drop; animation-duration: 24.4653s, 24.4653s; animation-delay: 0.645349s, 0.645349s;">
+			<img src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/realLeaf3.png"
+				style="animation-name: clockwiseSpin; animation-duration: 12.0777s;"></div>
+	</div>
         <div class="main_wrapper" style="height: 635px; width: 375px;">
-
             <section id="sec_intro" class="site_section">
                 <div class="section_wrapper">
                     <div class="section_content">
@@ -369,8 +368,6 @@
                                         role="option" aria-describedby="slick-slide03">
                                         <div class="story_slide_wrapper">
                                             <h1 class="title">Be Our Guest</h1>
-
-
                                             <div class="slide-content">
                                                 <div class="form-intro-wrapper">
                                                     Please reply before July 1, 2023
@@ -413,16 +410,7 @@
                                                                 <option value="10">10</option>
                                                             </select>
                                                         </div>
-
-
-
-
-
-
-                                                        <input name="couple_name" value="Elie
-&amp;
-Krystel
-" type="hidden" tabindex="-1">
+                                                        <input name="couple_name" value="Elie&amp;Krystel" type="hidden" tabindex="-1">
                                                         <input id="rsvp_email" type="hidden" name="rsvp_email"
                                                             value="game@outlook.com" tabindex="-1">
                                                         <input id="wed_date" name="wed_date" value="2023-07-15 18:00:00"
@@ -525,15 +513,10 @@ Krystel
                     </div>
 
                 </div>
-
-
-
             </section>
             <div class="progress_bar">
                 <div class="progress_state" style="width: 0%;"></div>
             </div>
-
-
             <div class="prompt" style="display: none;">
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -542,11 +525,6 @@ Krystel
                 </svg>
                 <span class="prompt_label">Swipe to continue</span>
             </div>
-
-
-
-
-
             <div id="preloaderCont" style="display: none;">
 
                 <div class="sk-cube-grid">
@@ -617,9 +595,7 @@ Krystel
     <script>
     //sliderspeed update 1
     $(document).ready(function() {
-
         evBGSliderSpeed = 6;
-
         $(".HeroSlider_wrapper").slick({
             'arrows': false,
             'fade': true,
@@ -629,28 +605,9 @@ Krystel
             'pauseOnHover': false,
             'touchMove': false,
             'draggable': false
-
         });
-
     });
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
-
 </html>
 <?php
