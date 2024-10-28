@@ -44,7 +44,7 @@
 
     <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery-1.11.1.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.cookie.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/slick.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/slick.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
 
     <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.countdown.min.js"></script>
