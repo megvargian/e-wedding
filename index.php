@@ -65,7 +65,7 @@
                                 </div>
                             </div><!-- /  HeroSlider_wrapper - mob -->
                             <div class="introLineTXT" data-introsec="">
-                                <p style="margin-bottom: 240px">Simon Beujekian<br />
+                                <p style="margin-bottom: 180px">Simon Beujekian<br />
                                     &amp;<br />
                                     Rita Momdjian</p>
                                 <div class="intro_subTitle">
