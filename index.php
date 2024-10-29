@@ -228,20 +228,20 @@
                                 <div class="slide_main_container noShade">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Wedding Ceremony</span></h1>
-                                        <div class="col info">
-                                            <span class="data-line-2"> 17:00 </span>
-                                        </div>
-                                        <div class="info-row loc">
-                                            <div class="col info">
-                                                <span class="data-line-1">Holy Cross Armenian Catholic Church</span>
-                                                <span class="data-line-2">Zalka, Lebanon</span>
-                                            </div>
-                                            <div class="col mapBtn mapBtn_1">
-                                                <a href="https://www.google.com/maps/dir//holy+cross+armenian+catholic+church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x151f3dfcc4e0e6f7:0x6f15e2ee6864922?sa=X&ved=1t:3061&ictx=111"
-                                                    target="_blank"><span>Location Map</span></a>
-                                            </div>
-                                        </div>
                                         <div class="event_details">
+                                            <div class="info-row loc">
+                                                <div class="col info">
+                                                    <span class="data-line-2"> 17:00 </span>
+                                                </div>
+                                                <div class="col info">
+                                                    <span class="data-line-1">Holy Cross Armenian Catholic Church</span>
+                                                    <span class="data-line-2">Zalka, Lebanon</span>
+                                                </div>
+                                                <div class="col mapBtn mapBtn_1">
+                                                    <a href="https://www.google.com/maps/dir//holy+cross+armenian+catholic+church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x151f3dfcc4e0e6f7:0x6f15e2ee6864922?sa=X&ved=1t:3061&ictx=111"
+                                                        target="_blank"><span>Location Map</span></a>
+                                                </div>
+                                            </div>
                                             <h1 class="title visible-title" style="padding-top: 0;">Let's Party</span>
                                             </h1>
                                             <div class="info-row date">
