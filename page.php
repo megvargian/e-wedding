@@ -604,8 +604,9 @@
             'pauseOnFocus': false,
             'pauseOnHover': false,
             'touchMove': false,
-            'draggable': false
+            'draggable': false,
 			'touchThreshold':100,
+
 
         });
     });
