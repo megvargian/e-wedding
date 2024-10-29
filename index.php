@@ -167,8 +167,8 @@
                                                 Beujekian &amp; Momdjian families&nbsp;<br />
                                                 invite you to celebrate<br />
                                                 the wedding of</p>
-                                            <h3 style="font-size: 40px;">Simon &amp; Rita</h3>
-                                            <p style="font-size: 20px;">On Novermber 23rd, 2024</p>
+                                            <h3 style="font-size: 40px;">Simon  &amp;  Rita</h3>
+                                            <p style="font-size: 20px;">On November 23rd, 2024</p>
                                         </div>
                                     </div>
                                     <div class="swipe_indicator mob dir-horizontal">
@@ -300,7 +300,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="info-row loc">
+                                            <div class="info-row loc" style="margin-top: 0px">
                                                 <div class="col icon">
                                                     <a
                                                         href="http://maps.google.com/maps?q=33.918151226188805,35.585284653553074"
@@ -500,7 +500,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Gift Registry</span></h1>
                                         <div class="slide-content slideBody">
-                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong>.</p>
+                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong></p>
                                             <p>
                                                 <strong>Account Number</strong><br />
                                                 <em>#20414986</em><br />
