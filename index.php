@@ -45,7 +45,12 @@
                             <div class="HeroSlider_wrapper mobvers">
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-6.jpg');">
+                                    </div>
+                                </div>
+                                <div class="visItem">
+                                    <div class="visItemBG"
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-7.jpg');">
                                     </div>
                                 </div>
                                 <div class="visItem">
@@ -55,12 +60,7 @@
                                 </div>
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
-                                    </div>
-                                </div>
-                                <div class="visItem">
-                                    <div class="visItemBG"
-                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-9.jpg');">
                                     </div>
                                 </div>
                             </div><!-- /  HeroSlider_wrapper - mob -->
