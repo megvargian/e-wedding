@@ -9,11 +9,11 @@
     prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
 
 <head>
-    <title>Janssen & Sero's Wedding</title>
+    <title>Simon & Rita's Wedding</title>
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta property="og:title" content="Janssen and Sero's Wedding" />
+    <meta property="og:title" content="Simon and Rita's Wedding" />
     <meta property="og:description" content="Wedding Invitation" />
     <meta name="description" content="Wedding Invitation">
     <link href="https://m.h2m.me/wp-content/themes/main/inc/assets/css/slick.css" rel="stylesheet">
@@ -65,12 +65,12 @@
                                 </div>
                             </div><!-- /  HeroSlider_wrapper - mob -->
                             <div class="introLineTXT" data-introsec="">
-                                <p style="margin-bottom: 280px">Janssen Cruz<br />
+                                <p style="margin-bottom: 280px">Simon Beudjekian<br />
                                     &amp;<br />
-                                    Sero Kelougian</p>
+                                    Rita Momdjian</p>
                                 <div class="intro_subTitle">
                                     The countdown begins </div>
-                                <div id="clock_wed" class="wed_counter" data-deadline="2023/08/18 18:00">
+                                <div id="clock_wed" class="wed_counter" data-deadline="2024/11/23 17:00">
                                     <div id="clockTimer" class="wed_counter_wrapper">
                                         <div id="tdays" class="tcell t_days">
                                             <span class="t_val daysVal">12</span>
@@ -164,11 +164,11 @@
                                         </h1>
                                         <div class="slide-content slideBody">
                                             <p style="font-size: 25px;">With joyous hearts,<br />
-                                                Kelougian &amp; Cruz families&nbsp;<br />
+                                                Beudjekian &amp; Momdjian families&nbsp;<br />
                                                 invite you to celebrate<br />
                                                 the wedding of</p>
-                                            <h3 style="font-size: 50px;">Sero &amp; Janssen</h3>
-                                            <p style="font-size: 25px;">On August 18, 2023</p>
+                                            <h3 style="font-size: 50px;">Simon &amp; Rita</h3>
+                                            <p style="font-size: 25px;">On Novermber 23rd, 2024</p>
                                         </div>
                                     </div>
                                     <div class="swipe_indicator mob dir-horizontal">
@@ -603,12 +603,12 @@
 
                                                 </div>
                                                 -->
-                                                <input name="couple_name" value="Sero
+                                                <input name="couple_name" value="Simon
 &amp;
-Janssen
+Rita
 " type="hidden">
                                                 <input id="rsvp_email" type="hidden" name="rsvp_email"
-                                                    value="serojanssen@gmail.com" />
+                                                    value="kouyoumdjianmike@gmail.com" />
                                                 <input id="wed_date" name="wed_date" value="2023-08-23 18:00:00"
                                                     type="hidden">
                                                 <input id="nid" name="nid" value="320" type="hidden">
