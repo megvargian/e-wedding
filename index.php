@@ -309,7 +309,7 @@
                                                         </svg></a></div>
                                                 <div class="col info">
                                                     <span class="data-line-1">Michael Garden, Ghazir</span>
-                                                    <span class="data-line-2">Kleiat, Kesserwan, Mount Lebanon</span>
+                                                    <!-- <span class="data-line-2">Kleiat, Kesserwan, Mount Lebanon</span> -->
                                                 </div>
                                                 <div class="col mapBtn mapBtn_1">
                                                     <a href="https://www.google.com/maps/dir//kfarhbeb/@34.0098721,35.5705111,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f4132951d2d9f:0x89a71e79bf893a3!2m2!1d35.6529123!2d34.0098996?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
