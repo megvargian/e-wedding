@@ -1,5 +1,5 @@
-$(document).ready(function($) {
- var evBGSliderSpeed = 6;
+jQuery(document).ready(function($) {
+	var evBGSliderSpeed = 6;
 	var lang = $('#main').data('language');
 	var p_lbls = {
 					'required_fld':{
