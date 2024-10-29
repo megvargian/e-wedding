@@ -95,6 +95,7 @@ $(document).ready(function($) {
 		'vertical': VerticalNav,
 		'verticalSwiping':Verticalswipe,
 		'autoplay':false,
+		'touchThreshold':100,
 	});
 
 	//Advanced Slick CustomAutoPlay

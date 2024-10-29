@@ -605,6 +605,8 @@
             'pauseOnHover': false,
             'touchMove': false,
             'draggable': false
+			'touchThreshold':100,
+
         });
     });
     </script>
