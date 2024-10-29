@@ -11,62 +11,8 @@
  *
  * @package WP_Bootstrap_Starter
  */
-
+get_header();
 ?>
-<html lang="en" dir="ltr"
-    prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
-
-<head>
-    <!-- <title>Demo C287 - Elie &amp; Krystel&#039;s Wedding | Evanto</title> -->
-    <title>Elie &amp; Krystel's Wedding</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta property="og:title" content="Elie &amp; Krystel's Wedding">
-    <meta property="og:description" content="Wedding Invitation">
-    <meta name="description" content="Wedding Invitation">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Lora:wght@400;600&amp;display=swap"
-        rel="stylesheet">
-
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/slick.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/slick-theme.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/inc/assets/css/event.css?v957298_1730142647" rel="stylesheet">
-    <script>
-    var evAutoPlay = false;
-    var evAutoplaySpeed = 1.0E+20;
-    var evInfinteLoop = false;
-    var VideoBufferPercent = 1;
-    </script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery-1.11.1.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.cookie.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/jquery.countdown.min.js?v837282_1730159104"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js?v837282_1730159104"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/event.js?v837282_1730159104"></script>
-</head>
-
-<body class="card_ctype tpltype-1 card-lang-en ct_slider" data-new-gr-c-s-check-loaded="14.1204.0"
-    data-gr-ext-installed="">
-
-    <script>
-    var isVertical, tplID, isNPvar;
-    var npCount = 0;
-
-    isCoverPhoto = false;
-
-    isVertical = false;
-    tplID = 1;
-    isNPvar = true;
-    npCount = 10;
-    </script>
-
     <div id="main" class="tpl-1 mobileOnlyTPL lang-en nav-horizontal ctnt-top" data-language="en">
 
 
