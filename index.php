@@ -229,7 +229,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Wedding Ceremony</span></h1>
                                         <div class="col info">
-                                            <span class="data-line-2"> 18:00 </span>
+                                            <span class="data-line-2"> 17:00 </span>
                                         </div>
                                         <div class="event_details">
                                             <h1 class="title visible-title" style="padding-top: 0;">Let's Party</span>
@@ -259,7 +259,7 @@
                                                     </svg></div> -->
                                                 <div class="col info">
                                                     <!-- <span class="data-line-1">After Ceremony </span> -->
-                                                    <span class="data-line-2" style="padding-bottom: 20px;">20:00</span>
+                                                    <span class="data-line-2" style="padding-bottom: 20px;">19:00</span>
                                                 </div>
                                                 <div class="info-row date">
                                                     <div class="col icon"><svg x="0px" y="0px" width="130.166px"
@@ -285,7 +285,7 @@
                                                             </g>
                                                         </svg></div>
                                                     <div class="col info">
-                                                        <span class="data-line-1">Friday August 18, 2023 </span>
+                                                        <span class="data-line-1">Saturday November 23, 2024 </span>
                                                         <!-- <span class="data-line-2"> 18:00 </span> -->
                                                     </div>
                                                 </div>
@@ -308,11 +308,11 @@
                                                             </g>
                                                         </svg></a></div>
                                                 <div class="col info">
-                                                    <span class="data-line-1">Royal Castle Venue</span>
+                                                    <span class="data-line-1">Michael Garden, Ghazir</span>
                                                     <span class="data-line-2">Kleiat, Kesserwan, Mount Lebanon</span>
                                                 </div>
                                                 <div class="col mapBtn mapBtn_1">
-                                                    <a href="https://www.google.com/maps/dir/33.915364,35.5767661/royal+castle+venue/@33.9406833,35.5739219,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x151f4784e3b6c5fb:0xe98142ce0f0832f7!2m2!1d35.7111122!2d33.959244?entry=ttu"
+                                                    <a href="https://www.google.com/maps/dir//kfarhbeb/@34.0098721,35.5705111,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f4132951d2d9f:0x89a71e79bf893a3!2m2!1d35.6529123!2d34.0098996?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
                                                         target="_blank"><span>Location Map</span></a>
                                                 </div>
                                             </div>
@@ -566,7 +566,7 @@
                                     <h1 class="title">Be Our Guest</h1>
                                     <div class="slide-content">
                                         <div class="form-intro-wrapper">
-                                            Please reply before July 12, 2023 <dd class="npersons_cont npLabel_visible">
+                                            Please reply before November 10, 2024 <dd class="npersons_cont npLabel_visible">
                                             </dd>
                                         </div>
                                         <div class="form-wrapper">
