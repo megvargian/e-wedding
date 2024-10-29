@@ -158,17 +158,17 @@
                             <div class="story_slide generic sld0 " data-bgmob="" data-bgdesk="">
                                 <div class="slide_main_container noShade">
                                     <div class="story_slide_wrapper">
-                                        <h1 class="title visible-title" style="font-size: 45px;">Save The Date
+                                        <h1 class="title visible-title" style="font-size: 38px;">Save The Date
                                             <!-- <span class="subtitle">8.18.2023</span> -->
                                             </span>
                                         </h1>
                                         <div class="slide-content slideBody">
-                                            <p style="font-size: 25px;">With joyous hearts,<br />
+                                            <p style="font-size: 20px;">With joyous hearts,<br />
                                                 Beujekian &amp; Momdjian families&nbsp;<br />
                                                 invite you to celebrate<br />
                                                 the wedding of</p>
-                                            <h3 style="font-size: 50px;">Simon &amp; Rita</h3>
-                                            <p style="font-size: 25px;">On Novermber 23rd, 2024</p>
+                                            <h3 style="font-size: 40px;">Simon &amp; Rita</h3>
+                                            <p style="font-size: 20px;">On Novermber 23rd, 2024</p>
                                         </div>
                                     </div>
                                     <div class="swipe_indicator mob dir-horizontal">
@@ -230,6 +230,14 @@
                                         <h1 class="title visible-title">Wedding Ceremony</span></h1>
                                         <div class="col info">
                                             <span class="data-line-2"> 17:00 </span>
+                                        </div>
+                                        <div class="col info">
+                                            <span class="data-line-1">Holy Cross Armenian Catholic Church</span>
+                                            <span class="data-line-2">Zalka, Lebanon</span>
+                                        </div>
+                                        <div class="col mapBtn mapBtn_1">
+                                            <a href="https://www.google.com/maps/dir//holy+cross+armenian+catholic+church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x151f3dfcc4e0e6f7:0x6f15e2ee6864922?sa=X&ved=1t:3061&ictx=111"
+                                                target="_blank"><span>Location Map</span></a>
                                         </div>
                                         <div class="event_details">
                                             <h1 class="title visible-title" style="padding-top: 0;">Let's Party</span>
@@ -308,8 +316,8 @@
                                                             </g>
                                                         </svg></a></div>
                                                 <div class="col info">
-                                                    <span class="data-line-1">Michael Garden, Ghazir</span>
-                                                    <!-- <span class="data-line-2">Kleiat, Kesserwan, Mount Lebanon</span> -->
+                                                    <span class="data-line-1">Michael Garden</span>
+                                                    <span class="data-line-2">Ghazir</span>
                                                 </div>
                                                 <div class="col mapBtn mapBtn_1">
                                                     <a href="https://www.google.com/maps/dir//kfarhbeb/@34.0098721,35.5705111,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x151f4132951d2d9f:0x89a71e79bf893a3!2m2!1d35.6529123!2d34.0098996?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
@@ -489,10 +497,10 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Gift Registry</span></h1>
                                         <div class="slide-content slideBody">
-                                            <p>For your convenience a wedding gifts registry account is availible at Whish Money</p>
+                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong> all branches</p>
                                             <p>
-                                                <strong>Acount number</strong><br />
-                                                <em>20414986</em><br />
+                                                <strong>Account Number</strong><br />
+                                                <em>#20414986</em><br />
                                                 <br />
                                             </p>
                                         </div>
@@ -763,14 +771,14 @@ Rita
     }
 
     .sld0 .slideBody h3 {
-        font-size: 36px;
+        font-size: 30px;
         line-height: 52px;
         font-family: 'Great Vibes', cursive;
         font-weight: normal;
     }
 
     .story_slide h1.title {
-        font-size: 40px;
+        font-size: 35px;
         font-family: 'Great Vibes', cursive;
         font-weight: normal;
     }
@@ -781,7 +789,7 @@ Rita
 
     /*.form-intro-wrapper dd.npersons_cont{display:none;}*/
     #qtauth {
-        font-size: 14px;
+        font-size: 13px;
         opacity: 0.7;
         font-style: italic;
         display: block;
@@ -789,7 +797,7 @@ Rita
     }
 
     .sld3 .slideBody p:nth-child(2) {
-        font-size: 17px;
+        font-size: 15px;
     }
     </style>
     <script>
