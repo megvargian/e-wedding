@@ -33,7 +33,7 @@
     <script
         src="https://m.h2m.me/wp-content/themes/main/inc/assets/js/jquery.countdown.min.js?v395679_1685350088">
     </script>
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js"></script>
+    <!-- <script src="<?php //echo get_template_directory_uri(); ?>/inc/assets/js/leaves.js"></script> -->
     <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/event.js"></script>
     <div id="main" class="tpl-1 mobileOnlyTPL lang-en nav-horizontal ctnt-top" data-language="en">
         <div id="leafContainer" data-image="dandelions"></div>
