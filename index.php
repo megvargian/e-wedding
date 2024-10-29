@@ -45,22 +45,22 @@
                             <div class="HeroSlider_wrapper mobvers">
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('https://m.h2m.me/wp-content/uploads/2023/05/sero-jensen.jpeg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
                                     </div>
                                 </div>
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('https://m.h2m.me/wp-content/uploads/2023/06/1.jpeg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
                                     </div>
                                 </div>
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('https://m.h2m.me/wp-content/uploads/2023/05/sero-jensen.jpeg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
                                     </div>
                                 </div>
                                 <div class="visItem">
                                     <div class="visItemBG"
-                                        style="background-image:url('https://m.h2m.me/wp-content/uploads/2023/06/1.jpeg');">
+                                        style="background-image:url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg');">
                                     </div>
                                 </div>
                             </div><!-- /  HeroSlider_wrapper - mob -->
@@ -698,7 +698,7 @@ Janssen
                                 <div class="story_slide_wrapper">
                                     <div class="slide-content">
                                         <div class="photo-frame">
-                                            <img src="https://m.h2m.me/wp-content/uploads/2023/06/2.jpeg" />
+                                            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg" />
                                             <span class="photo-title" style="font-family: Arial, sans-serif;">&#9825;
                                                 Together forever &#9825;</span>
                                         </div>
