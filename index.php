@@ -272,7 +272,7 @@
                                                     <span class="data-line-2" style="padding-bottom: 20px;">19:00</span>
                                                 </div>
                                                 <div class="info-row date">
-                                                    <div class="col icon"><svg x="0px" y="0px" width="130.166px"
+                                                    <!-- <div class="col icon"><svg x="0px" y="0px" width="130.166px"
                                                             height="153.695px" viewBox="0 0 130.166 153.695"
                                                             enable-background="new 0 0 130.166 153.695"
                                                             xml:space="preserve">
@@ -293,7 +293,7 @@
                                                                     d="M64.134,109.863h12.903c1.138,0,2.087-0.949,2.087-2.087c0-1.138-0.949-2.087-2.087-2.087H66.411V87.473
 		c0-1.138-0.949-2.087-2.087-2.087c-1.138,0-2.087,0.949-2.087,2.087v20.303C62.047,108.915,62.996,109.863,64.134,109.863z" />
                                                             </g>
-                                                        </svg></div>
+                                                        </svg></div> -->
                                                     <div class="col info">
                                                         <!-- <span class="data-line-1">Saturday November 23, 2024 </span> -->
                                                         <!-- <span class="data-line-2"> 18:00 </span> -->
@@ -500,7 +500,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Gift Registry</span></h1>
                                         <div class="slide-content slideBody">
-                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong> all branches</p>
+                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong>.</p>
                                             <p>
                                                 <strong>Account Number</strong><br />
                                                 <em>#20414986</em><br />
