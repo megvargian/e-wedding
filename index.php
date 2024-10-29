@@ -65,7 +65,7 @@
                                 </div>
                             </div><!-- /  HeroSlider_wrapper - mob -->
                             <div class="introLineTXT" data-introsec="">
-                                <p style="margin-bottom: 280px">Simon Beudjekian<br />
+                                <p style="margin-bottom: 280px">Simon Beujekian<br />
                                     &amp;<br />
                                     Rita Momdjian</p>
                                 <div class="intro_subTitle">
@@ -164,7 +164,7 @@
                                         </h1>
                                         <div class="slide-content slideBody">
                                             <p style="font-size: 25px;">With joyous hearts,<br />
-                                                Beudjekian &amp; Momdjian families&nbsp;<br />
+                                                Beujekian &amp; Momdjian families&nbsp;<br />
                                                 invite you to celebrate<br />
                                                 the wedding of</p>
                                             <h3 style="font-size: 50px;">Simon &amp; Rita</h3>
@@ -484,25 +484,16 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <!-- <div class="story_slide generic sld2 " data-bgmob="" data-bgdesk="">
+                             <div class="story_slide generic sld2 " data-bgmob="" data-bgdesk="">
                                 <div class="slide_main_container noShade">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Gift Registry</span></h1>
                                         <div class="slide-content slideBody">
-                                            <p>The greatest&nbsp;gift we could have is your presence at our wedding.
-                                                However a wedding list will be available at all Qatar&nbsp;<strong>Gulf
-                                                    Bank</strong> branches</p>
-                                            <p><strong>Beneficiary name</strong><br />
-                                                <em>Test Test</em><br />
+                                            <p>For your convenience a wedding gifts registry account is availible at Whish Money</p>
+                                            <p>
+                                                <strong>Acount number</strong><br />
+                                                <em>20414986</em><br />
                                                 <br />
-                                                <strong>IBAN</strong><br />
-                                                <em>KW70GULB0000000000000038079870</em><br />
-                                                <br />
-                                                <strong>Account number</strong><br />
-                                                <em>38079870</em><br />
-                                                <br />
-                                                <strong>Swift Code</strong><br />
-                                                <em>GULBKWKW</em>
                                             </p>
                                         </div>
                                     </div>
@@ -558,7 +549,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- RSVP -->
                             <!-- slide -->
                             <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
