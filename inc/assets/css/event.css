@@ -2059,8 +2059,8 @@ a.evantoBTN{
 	content: "";
 	height: 13px;
 	width: 11px;
-	mask-image: url(https://mk.h2m.me/wp-content/themes/main/inc/assets/icons/location-pin.svg);
-	-webkit-mask-image: url(https://mk.h2m.me/wp-content/themes/main/inc/assets/icons/location-pin.svg);
+	mask-image: url(https://m.h2m.me/wp-content/themes/main/inc/assets/icons/location-pin.svg);
+	-webkit-mask-image: url(https://m.h2m.me/wp-content/themes/main/inc/assets/icons/location-pin.svg);
 	mask-position: center center;
 	-webkit-mask-position: center center;
 	mask-size: contain;
