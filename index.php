@@ -231,13 +231,15 @@
                                         <div class="col info">
                                             <span class="data-line-2"> 17:00 </span>
                                         </div>
-                                        <div class="col info">
-                                            <span class="data-line-1">Holy Cross Armenian Catholic Church</span>
-                                            <span class="data-line-2">Zalka, Lebanon</span>
-                                        </div>
-                                        <div class="col mapBtn mapBtn_1">
-                                            <a href="https://www.google.com/maps/dir//holy+cross+armenian+catholic+church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x151f3dfcc4e0e6f7:0x6f15e2ee6864922?sa=X&ved=1t:3061&ictx=111"
-                                                target="_blank"><span>Location Map</span></a>
+                                        <div class="info-row loc">
+                                            <div class="col info">
+                                                <span class="data-line-1">Holy Cross Armenian Catholic Church</span>
+                                                <span class="data-line-2">Zalka, Lebanon</span>
+                                            </div>
+                                            <div class="col mapBtn mapBtn_1">
+                                                <a href="https://www.google.com/maps/dir//holy+cross+armenian+catholic+church/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x151f3dfcc4e0e6f7:0x6f15e2ee6864922?sa=X&ved=1t:3061&ictx=111"
+                                                    target="_blank"><span>Location Map</span></a>
+                                            </div>
                                         </div>
                                         <div class="event_details">
                                             <h1 class="title visible-title" style="padding-top: 0;">Let's Party</span>
@@ -293,13 +295,14 @@
                                                             </g>
                                                         </svg></div>
                                                     <div class="col info">
-                                                        <span class="data-line-1">Saturday November 23, 2024 </span>
+                                                        <!-- <span class="data-line-1">Saturday November 23, 2024 </span> -->
                                                         <!-- <span class="data-line-2"> 18:00 </span> -->
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="info-row loc">
-                                                <div class="col icon"><a
+                                                <div class="col icon">
+                                                    <a
                                                         href="http://maps.google.com/maps?q=33.918151226188805,35.585284653553074"
                                                         target="_blank"><svg x="0px" y="0px" width="96.507px"
                                                             height="154.835px" viewBox="0 0 96.507 154.835"
