@@ -537,7 +537,7 @@ get_header();
 //sliderspeed update 1
 jQuery(document).ready(function($) {
     evBGSliderSpeed = 6;
-    $(".HeroSlider_wrapper").not('.slick-initialized').slick({
+    $(".HeroSlider_wrapper").not('.slick-initialized').not('.slick-initialized').slick({
         'arrows': false,
         'fade': true,
         'autoplay': true,
