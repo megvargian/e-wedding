@@ -607,7 +607,7 @@
             'draggable': false,
 			'touchThreshold':100,
 
-
+			'swipeToSlide' : true,
         });
     });
     </script>
