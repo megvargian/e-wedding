@@ -228,8 +228,8 @@
                                 <div class="slide_main_container noShade">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Wedding Ceremony</span></h1>
-                                        <div class="event_details" style="padding-top: 0px">
-                                            <div class="info-row loc">
+                                        <div class="event_details" style="padding-top: 0px;">
+                                            <div class="info-row loc" style="margin-top: 0px;">
                                                 <div class="col info">
                                                     <span class="data-line-2"> 17:00 </span>
                                                 </div>
