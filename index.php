@@ -617,7 +617,7 @@
 
                                                     <input name="couple_name" value="Simon&amp;Rita" type="hidden">
                                                     <input id="rsvp_email" type="hidden" name="rsvp_email"
-                                                        value="kouyoumdjianmike@gmail.com, gacia_g1997@hotmail.com" />
+                                                        value="Rita.momdjian@outlook.com, Simon.beujekian@gmail.com" />
                                                     <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
                                                         type="hidden">
                                                     <input id="nid" name="nid" value="320" type="hidden">
@@ -752,7 +752,7 @@
 
                                                     <input name="couple_name" value="Simon&amp;Rita" type="hidden">
                                                     <input id="rsvp_email" type="hidden" name="rsvp_email"
-                                                        value="kouyoumdjianmike@gmail.com, gacia_g1997@hotmail.com" />
+                                                        value="Rita.momdjian@outlook.com, Simon.beujekian@gmail.com" />
                                                     <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
                                                         type="hidden">
                                                     <input id="nid" name="nid" value="320" type="hidden">
