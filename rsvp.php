@@ -17,48 +17,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // $data now contains the decoded JSON data as an associative array
 }
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// Define the email recipients, subject, and message
+$to = $data['email'];
+$subject = 'RSVP SIMON AND RITA';
+$message =  "<b>  name:" . $data['name'] . "</b>" .
+"<b>  isAttending:" . $data['guests'] . "  </b>" .
+"<b>  numberof guests:" . $data['n_persons'] . "  </b>"
+$headers = array('Content-Type: text/html; charset=UTF-8');
 
-require 'PHPMailer-master/src/Exception.php';
-require 'PHPMailer-master/src/PHPMailer.php';
-require 'PHPMailer-master/src/SMTP.php';
-
-
-function sendEmail($to, $subject, $message)
-{
-    // ob_start(); // Start output buffering
-    $mail = new PHPMailer();
-    $mail->IsSMTP();
-    $mail->Mailer = "smtp";
-    $mail->SMTPDebug  = 1;
-    $mail->SMTPAuth   = TRUE;
-    $mail->SMTPSecure = "ssl";
-    $mail->Port       = 465;
-    $mail->Host       = "mail-server.h2mdns.net";
-    $mail->Username   = "simonrita@m.h2m.me";
-    $mail->Password   = "X2(o.k~@eEcy";
-    $mail->IsHTML(true);
-    $mail->AddAddress($to, "RSVP SIMON AND RITA");
-    $mail->SetFrom("simonrita@m.h2m.me", "SIMON AND RITA");
-    // $mail->AddReplyTo($to, "reply-to-name");
-    // $mail->AddCC("cc-recipient-email@domain", "cc-recipient-name");
-    $mail->Subject = $subject;
-    $content = $message;
-    $mail->MsgHTML($content);
-
-    if ($mail->send()) {
-        // ob_end_clean(); // Discard the output buffer
-        header("HTTP/1.1 200 OK");
-    } else {
-        echo "Error sending email";
-    }
+// Send the email
+if (wp_mail($to, $subject, $message, $headers)) {
+    echo 'Email sent successfully!';
+} else {
+    echo 'Failed to send email.';
 }
-
-sendEmail(
-    $data['email'],
-    "RSVP SIMON AND RITA",
-    "<b>  name:" . $data['name'] . "</b>" .
-        "<b>  isAttending:" . $data['guests'] . "  </b>" .
-        "<b>  numberof guests:" . $data['n_persons'] . "  </b>"
-);
+?>
