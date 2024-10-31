@@ -34,13 +34,13 @@ function sendEmail($to, $subject, $message)
     $mail->Mailer = "smtp";
     $mail->SMTPDebug  = 1;
     $mail->SMTPAuth   = TRUE;
-    $mail->SMTPSecure = "tls";
-    $mail->Port       = 587;
-    $mail->Host       = "m.h2m.me";
+    $mail->SMTPSecure = "ssl";
+    $mail->Port       = 465;
+    $mail->Host       = "mail-server.h2mdns.net";
     $mail->Username   = "simonrita@m.h2m.me";
     $mail->Password   = "Kg{#bA*ygwoo";
     $mail->IsHTML(true);
-    $mail->AddAddress('kouyoumdjianmike@gmail.com', "RSVP SIMON AND RITA");
+    $mail->AddAddress($to, "RSVP SIMON AND RITA");
     $mail->SetFrom("simonrita@m.h2m.me", "SIMON AND RITA");
     // $mail->AddReplyTo($to, "reply-to-name");
     // $mail->AddCC("cc-recipient-email@domain", "cc-recipient-name");
