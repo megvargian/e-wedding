@@ -696,6 +696,17 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="story_slide endFrame">
+                                    <div class="story_slide_wrapper">
+                                        <div class="slide-content">
+                                            <div class="photo-frame">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg" />
+                                                <span class="photo-title" style="font-family: Arial, sans-serif;">&#9825;
+                                                    Together forever &#9825;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             <?php } else {?>
                                 <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
@@ -820,19 +831,20 @@
                                         </div>
                                     </div>
                                 </div>
-                            <?php } ?>
-                            <!-- end slide -->
-                            <div class="story_slide endFrame">
-                                <div class="story_slide_wrapper">
-                                    <div class="slide-content">
-                                        <div class="photo-frame">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg" />
-                                            <span class="photo-title" style="font-family: Arial, sans-serif;">&#9825;
-                                                Together forever &#9825;</span>
+                                <div class="story_slide endFrame">
+                                    <div class="story_slide_wrapper">
+                                        <div class="slide-content">
+                                            <div class="photo-frame">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/ok-8.jpg" />
+                                                <span class="photo-title" style="font-family: Arial, sans-serif;">&#9825;
+                                                    Together forever &#9825;</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <?php } ?>
+                            <!-- end slide -->
+
                             <!-- sponsor slide -->
                         </div><!-- / #story_slider -->
                         <div class="poweredBy">
