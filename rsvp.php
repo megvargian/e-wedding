@@ -38,7 +38,7 @@ function sendEmail($to, $subject, $message)
     $mail->Port       = 465;
     $mail->Host       = "mail-server.h2mdns.net";
     $mail->Username   = "simonrita@m.h2m.me";
-    $mail->Password   = "Kg{#bA*ygwoo";
+    $mail->Password   = "X2(o.k~@eEcy";
     $mail->IsHTML(true);
     $mail->AddAddress($to, "RSVP SIMON AND RITA");
     $mail->SetFrom("simonrita@m.h2m.me", "SIMON AND RITA");
