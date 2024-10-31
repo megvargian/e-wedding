@@ -563,124 +563,237 @@
                             </div>
                             <!-- RSVP -->
                             <!-- slide -->
-                            <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
-                                <div class="story_slide_wrapper">
-                                    <h1 class="title">Be Our Guest</h1>
-                                    <h2 class="title">
-                                        <?php //echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
-                                        <pre><?php print_r( $_SERVER['QUERY_STRING']); ?></pre>
-                                    </h2>
-                                    <div class="slide-content">
-                                        <div class="form-intro-wrapper">
-                                            Number of person: <?php //echo $_GET['nbpr']; ?> <dd class="npersons_cont npLabel_visible">
-                                        </dd>
-                                        <div class="form-intro-wrapper">
-                                            Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
-                                        </dd>
-                                        </div>
-                                        <div class="form-wrapper">
-                                            <form id="rsvp-event" method="post" name="rsvp_form" action="rsvp.php">
+                            <?php if(isset($_GET['first_name']) && $_GET['second_name'] &&  $_GET['nbpr']){?>
+                                <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
+                                    <div class="story_slide_wrapper">
+                                        <h1 class="title">Be Our Guest</h1>
+                                        <h2 class="title">
+                                            <?php echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
+                                        </h2>
+                                        <div class="slide-content">
+                                            <div class="form-intro-wrapper">
+                                                Number of person: <?php echo $_GET['nbpr']; ?> <dd class="npersons_cont npLabel_visible">
+                                            </dd>
+                                            <div class="form-intro-wrapper">
+                                                Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
+                                            </dd>
+                                            </div>
+                                            <div class="form-wrapper">
+                                                <form id="rsvp-event" method="post" name="rsvp_form" action="rsvp.php">
 
-                                                <div class="form-field fld-guests">
-                                                    <label for="guests">Are You Attending?</label>
-                                                    <select id="guests" name="guests">
-                                                        <option value="">- select -</option>
-                                                        <option value="Yes">Yes Attending</option>
-                                                        <option value="No">Not Attending</option>
-                                                    </select>
-                                                </div>
-                                                <!-- <div class="form-field fld-npersons" style="margin-top: 20px;">
-                                                    <label for="npersons">Number of Attendees</label>
-                                                    <select id="npersons" name="npersons">
-                                                        <option value="">- select -</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                    <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" />
-                                                </div> -->
-                                                <!-- <div class="form-field fld-name">
-                                                    <label for="full_name">Name(s)</label>
-                                                    <input placeholder="eg: Samer and Rana" id="full_name" type="text"
-                                                        name="full_name" value="" />
-                                                </div> -->
+                                                    <div class="form-field fld-guests">
+                                                        <label for="guests">Are You Attending?</label>
+                                                        <select id="guests" name="guests">
+                                                            <option value="">- select -</option>
+                                                            <option value="Yes">Yes Attending</option>
+                                                            <option value="No">Not Attending</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- <div class="form-field fld-npersons" style="margin-top: 20px;">
+                                                        <label for="npersons">Number of Attendees</label>
+                                                        <select id="npersons" name="npersons">
+                                                            <option value="">- select -</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                        </select>
+                                                        <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" />
+                                                    </div> -->
+                                                    <!-- <div class="form-field fld-name">
+                                                        <label for="full_name">Name(s)</label>
+                                                        <input placeholder="eg: Samer and Rana" id="full_name" type="text"
+                                                            name="full_name" value="" />
+                                                    </div> -->
 
-                                            	<div class="form-field fld-message">
-                                                	<label for="message">Message</label>
-                                                    <textarea placeholder="Optional" id="message" name="message"></textarea>
+                                                    <div class="form-field fld-message">
+                                                        <label for="message">Message</label>
+                                                        <textarea placeholder="Optional" id="message" name="message"></textarea>
 
-                                                </div>
+                                                    </div>
 
-                                                <input name="couple_name" value="Simon&amp;Rita" type="hidden">
-                                                <input id="rsvp_email" type="hidden" name="rsvp_email"
-                                                    value="kouyoumdjianmike@gmail.com" />
-                                                <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
-                                                    type="hidden">
-                                                <input id="nid" name="nid" value="320" type="hidden">
-                                                <button id="submit_rsvp" type="submit">
-                                                    RSVP<div class="rsvp-preloader">
-                                                        <div class="rsvp-preloader-wrapper">
-                                                            <div class="sk-cube-grid">
-                                                                <div class="sk-cube sk-cube1"></div>
-                                                                <div class="sk-cube sk-cube2"></div>
-                                                                <div class="sk-cube sk-cube3"></div>
-                                                                <div class="sk-cube sk-cube4"></div>
-                                                                <div class="sk-cube sk-cube5"></div>
-                                                                <div class="sk-cube sk-cube6"></div>
-                                                                <div class="sk-cube sk-cube7"></div>
-                                                                <div class="sk-cube sk-cube8"></div>
-                                                                <div class="sk-cube sk-cube9"></div>
-                                                                <div class="loading_lbl">Loading..</div>
+                                                    <input name="couple_name" value="Simon&amp;Rita" type="hidden">
+                                                    <input id="rsvp_email" type="hidden" name="rsvp_email"
+                                                        value="kouyoumdjianmike@gmail.com" />
+                                                    <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
+                                                        type="hidden">
+                                                    <input id="nid" name="nid" value="320" type="hidden">
+                                                    <button id="submit_rsvp" type="submit">
+                                                        RSVP<div class="rsvp-preloader">
+                                                            <div class="rsvp-preloader-wrapper">
+                                                                <div class="sk-cube-grid">
+                                                                    <div class="sk-cube sk-cube1"></div>
+                                                                    <div class="sk-cube sk-cube2"></div>
+                                                                    <div class="sk-cube sk-cube3"></div>
+                                                                    <div class="sk-cube sk-cube4"></div>
+                                                                    <div class="sk-cube sk-cube5"></div>
+                                                                    <div class="sk-cube sk-cube6"></div>
+                                                                    <div class="sk-cube sk-cube7"></div>
+                                                                    <div class="sk-cube sk-cube8"></div>
+                                                                    <div class="sk-cube sk-cube9"></div>
+                                                                    <div class="loading_lbl">Loading..</div>
+                                                                </div>
+                                                                <span class="waitTXT"> Please Wait..</span>
                                                             </div>
-                                                            <span class="waitTXT"> Please Wait..</span>
-                                                        </div>
-                                                    </div> </button>
-                                                <div class="form-lock-screen"></div>
-                                            </form>
-                                            <div class="ajax_success_message">
-                                                <div class="ajax_success_message_wrapper">
-                                                    <p>Thank you for your confirmation!<br />
-                                                        See you there :)</p>
+                                                        </div> </button>
+                                                    <div class="form-lock-screen"></div>
+                                                </form>
+                                                <div class="ajax_success_message">
+                                                    <div class="ajax_success_message_wrapper">
+                                                        <p>Thank you for your confirmation!<br />
+                                                            See you there :)</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swipe_indicator mob dir-horizontal">
-                                    <div class="si_wrpr">
-                                        <div class="si_icons">
-                                            <span class="ind1"><svg x="0px" y="0px" width="29.912px" height="53.178px"
-                                                    viewBox="213.929 197.715 29.912 53.178"
-                                                    enable-background="new 213.929 197.715 29.912 53.178"
-                                                    xml:space="preserve">
-                                                    <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
-	l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
-	c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ind2"><svg x="0px" y="0px" width="29.912px" height="53.178px"
-                                                    viewBox="213.929 197.715 29.912 53.178"
-                                                    enable-background="new 213.929 197.715 29.912 53.178"
-                                                    xml:space="preserve">
-                                                    <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
-	l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
-	c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ind3"><svg x="0px" y="0px" width="29.912px" height="53.178px"
-                                                    viewBox="213.929 197.715 29.912 53.178"
-                                                    enable-background="new 213.929 197.715 29.912 53.178"
-                                                    xml:space="preserve">
-                                                    <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
-	l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
-	c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
-                                                </svg>
-                                            </span>
+                                    <div class="swipe_indicator mob dir-horizontal">
+                                        <div class="si_wrpr">
+                                            <div class="si_icons">
+                                                <span class="ind1"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                                <span class="ind2"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                                <span class="ind3"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="si_label">SWIPE LEFT</div>
                                         </div>
-                                        <div class="si_label">SWIPE LEFT</div>
                                     </div>
-                                </div>
+                                <?php } else {?>
+                                    <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
+                                    <div class="story_slide_wrapper">
+                                        <h1 class="title">Be Our Guest</h1>
+                                        <div class="slide-content">
+                                            <div class="form-intro-wrapper">
+                                                Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
+                                            </dd>
+                                            </div>
+                                            <div class="form-wrapper">
+                                                <form id="rsvp-event" method="post" name="rsvp_form" action="rsvp.php">
+
+                                                    <div class="form-field fld-guests">
+                                                        <label for="guests">Are You Attending?</label>
+                                                        <select id="guests" name="guests">
+                                                            <option value="">- select -</option>
+                                                            <option value="Yes">Yes Attending</option>
+                                                            <option value="No">Not Attending</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-field fld-npersons" style="margin-top: 20px;">
+                                                        <label for="npersons">Number of Attendees</label>
+                                                        <select id="npersons" name="npersons">
+                                                            <option value="">- select -</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                        </select>
+                                                        <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" />
+                                                    </div>
+                                                    <div class="form-field fld-name">
+                                                        <label for="full_name">Name(s)</label>
+                                                        <input placeholder="eg: Samer and Rana" id="full_name" type="text"
+                                                            name="full_name" value="" />
+                                                    </div>
+
+                                                    <!-- <div class="form-field fld-message">
+                                                        <label for="message">Message</label>
+                                                        <textarea placeholder="Optional" id="message" name="message"></textarea>
+
+                                                    </div> -->
+
+                                                    <input name="couple_name" value="Simon&amp;Rita" type="hidden">
+                                                    <input id="rsvp_email" type="hidden" name="rsvp_email"
+                                                        value="kouyoumdjianmike@gmail.com" />
+                                                    <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
+                                                        type="hidden">
+                                                    <input id="nid" name="nid" value="320" type="hidden">
+                                                    <button id="submit_rsvp" type="submit">
+                                                        RSVP<div class="rsvp-preloader">
+                                                            <div class="rsvp-preloader-wrapper">
+                                                                <div class="sk-cube-grid">
+                                                                    <div class="sk-cube sk-cube1"></div>
+                                                                    <div class="sk-cube sk-cube2"></div>
+                                                                    <div class="sk-cube sk-cube3"></div>
+                                                                    <div class="sk-cube sk-cube4"></div>
+                                                                    <div class="sk-cube sk-cube5"></div>
+                                                                    <div class="sk-cube sk-cube6"></div>
+                                                                    <div class="sk-cube sk-cube7"></div>
+                                                                    <div class="sk-cube sk-cube8"></div>
+                                                                    <div class="sk-cube sk-cube9"></div>
+                                                                    <div class="loading_lbl">Loading..</div>
+                                                                </div>
+                                                                <span class="waitTXT"> Please Wait..</span>
+                                                            </div>
+                                                        </div> </button>
+                                                    <div class="form-lock-screen"></div>
+                                                </form>
+                                                <div class="ajax_success_message">
+                                                    <div class="ajax_success_message_wrapper">
+                                                        <p>Thank you for your confirmation!<br />
+                                                            See you there :)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swipe_indicator mob dir-horizontal">
+                                        <div class="si_wrpr">
+                                            <div class="si_icons">
+                                                <span class="ind1"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                                <span class="ind2"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                                <span class="ind3"><svg x="0px" y="0px" width="29.912px" height="53.178px"
+                                                        viewBox="213.929 197.715 29.912 53.178"
+                                                        enable-background="new 213.929 197.715 29.912 53.178"
+                                                        xml:space="preserve">
+                                                        <path fill="#FFFFFF" d="M240.518,250.893c-0.997,0-1.662-0.332-2.327-0.997l-23.265-23.265c-1.329-1.329-1.329-3.324,0-4.653
+        l23.265-23.265c1.329-1.329,3.324-1.329,4.653,0c1.329,1.329,1.329,3.324,0,4.653l-20.939,20.939l20.939,20.939
+        c1.329,1.329,1.329,3.324,0,4.653C242.179,250.56,241.515,250.893,240.518,250.893z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="si_label">SWIPE LEFT</div>
+                                        </div>
+                                    </div>
+                                <?php } ?>
                                 <div class="swipe_indicator desk">
                                     <div class="si_wrpr">
                                         <div class="si_icons">
