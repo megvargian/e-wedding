@@ -684,6 +684,23 @@
                                             <div class="si_label">SWIPE LEFT</div>
                                         </div>
                                     </div>
+                                    <div class="swipe_indicator desk">
+                                        <div class="si_wrpr">
+                                            <div class="si_icons">
+                                                <span class="ind_arrowDown"><svg id="Capa_1" x="0px" y="0px"
+                                                        viewBox="0 0 86.001 86.001" xml:space="preserve" width="512px"
+                                                        height="512px">
+                                                        <g>
+                                                            <path
+                                                                d="M5.907,21.004c-1.352-1.338-3.542-1.338-4.894,0c-1.35,1.336-1.352,3.506,0,4.844l39.54,39.15   c1.352,1.338,3.542,1.338,4.894,0l39.54-39.15c1.351-1.338,1.352-3.506,0-4.844c-1.352-1.338-3.542-1.338-4.894-0.002L43,56.707   L5.907,21.004z"
+                                                                fill="#FFFFFF" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="si_label">SCROLL DOWN</div>
+                                        </div>
+                                    </div>
                                 <?php } else {?>
                                     <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
@@ -796,24 +813,24 @@
                                             <div class="si_label">SWIPE LEFT</div>
                                         </div>
                                     </div>
-                                <?php } ?>
-                                <div class="swipe_indicator desk">
-                                    <div class="si_wrpr">
-                                        <div class="si_icons">
-                                            <span class="ind_arrowDown"><svg id="Capa_1" x="0px" y="0px"
-                                                    viewBox="0 0 86.001 86.001" xml:space="preserve" width="512px"
-                                                    height="512px">
-                                                    <g>
-                                                        <path
-                                                            d="M5.907,21.004c-1.352-1.338-3.542-1.338-4.894,0c-1.35,1.336-1.352,3.506,0,4.844l39.54,39.15   c1.352,1.338,3.542,1.338,4.894,0l39.54-39.15c1.351-1.338,1.352-3.506,0-4.844c-1.352-1.338-3.542-1.338-4.894-0.002L43,56.707   L5.907,21.004z"
-                                                            fill="#FFFFFF" />
-                                                    </g>
-                                                </svg>
-                                            </span>
+                                    <div class="swipe_indicator desk">
+                                        <div class="si_wrpr">
+                                            <div class="si_icons">
+                                                <span class="ind_arrowDown"><svg id="Capa_1" x="0px" y="0px"
+                                                        viewBox="0 0 86.001 86.001" xml:space="preserve" width="512px"
+                                                        height="512px">
+                                                        <g>
+                                                            <path
+                                                                d="M5.907,21.004c-1.352-1.338-3.542-1.338-4.894,0c-1.35,1.336-1.352,3.506,0,4.844l39.54,39.15   c1.352,1.338,3.542,1.338,4.894,0l39.54-39.15c1.351-1.338,1.352-3.506,0-4.844c-1.352-1.338-3.542-1.338-4.894-0.002L43,56.707   L5.907,21.004z"
+                                                                fill="#FFFFFF" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="si_label">SCROLL DOWN</div>
                                         </div>
-                                        <div class="si_label">SCROLL DOWN</div>
                                     </div>
-                                </div>
+                                <?php } ?>
                             </div>
                             <!-- end slide -->
                             <div class="story_slide endFrame">
