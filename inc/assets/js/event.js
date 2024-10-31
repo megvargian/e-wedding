@@ -331,6 +331,7 @@ $(document).ready(function (e) {
     if($('#rsvp_names_build').text() && $('#rsvp_guests_build').text()){
       rsvp_name = $('#rsvp_names_build').text();
       rsvp_npersons = $('#rsvp_guests_build').text();
+      var rsvp_message = $('#message').val();
       isValid = true;
     }
     if (isValid) {
@@ -344,6 +345,7 @@ $(document).ready(function (e) {
         nid: cardID,
         wed_date: wed_date,
         n_persons: rsvp_npersons,
+        message: rsvp_message,
       };
       console.log(_data);
       // _data = JSON.stringify(_data);
