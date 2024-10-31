@@ -28,7 +28,6 @@ require 'PHPMailer-master/src/SMTP.php';
 function sendEmail($to, $subject, $message)
 {
     // ob_start(); // Start output buffering
-
     $mail = new PHPMailer();
     $mail->IsSMTP();
     $mail->Mailer = "smtp";
