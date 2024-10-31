@@ -40,7 +40,7 @@ function sendEmail($to, $subject, $message)
     $mail->Username   = "simonrita@m.h2m.me";
     $mail->Password   = "Kg{#bA*ygwoo";
     $mail->IsHTML(true);
-    $mail->AddAddress($to, "RSVP SIMON AND RITA");
+    $mail->AddAddress('kouyoumdjianmike@gmail.com', "RSVP SIMON AND RITA");
     $mail->SetFrom("simonrita@m.h2m.me", "SIMON AND RITA");
     // $mail->AddReplyTo($to, "reply-to-name");
     // $mail->AddCC("cc-recipient-email@domain", "cc-recipient-name");
