@@ -28,7 +28,7 @@ $message =  " name: " . $data['name'] . "</br>" .
     $message =  " name: " . $data['name'] . "</br>" .
 "isAttending: " . $data['guests'] . "  </br>" .
 "numberof guests: " . $data['n_persons'] . "  </br>".
-"Message: " . $data['message'] .  : '';
+"Message: " . $data['message'];
 }
 $headers = array('Content-Type: text/html; charset=UTF-8');
 
