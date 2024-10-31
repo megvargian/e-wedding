@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Define the email recipients, subject, and message
 $to = $data['email'];
 $subject = 'RSVP SIMON AND RITA';
-$message =  "<b>  name:" . $data['name'] . "</b>" .
-"<b>  isAttending:" . $data['guests'] . "  </b>" .
-"<b>  numberof guests:" . $data['n_persons'] . "  </b>";
+$message =  "  name: " . $data['name'] . "</br>" .
+"isAttending: " . $data['guests'] . "  </br>" .
+"numberof guests: " . $data['n_persons'] . "  </br>";
 $headers = array('Content-Type: text/html; charset=UTF-8');
 
 // Send the email
