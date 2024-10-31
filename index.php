@@ -571,7 +571,7 @@
                                 <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
-                                        <h2 class="title">
+                                        <h2 id="rsvp_names_build" class="title">
                                             <?php echo $first_name . ' & ' . $second_name; ?>
                                         </h2>
                                         <div class="slide-content">
@@ -580,7 +580,7 @@
                                             </dd>
                                             </div>
                                             <div class="form-intro-wrapper">
-                                                Number Of Person: <?php echo $nbpr; ?> <dd class="npersons_cont npLabel_visible">
+                                                Number Of Person: <span id="rsvp_guests_build"><?php echo $nbpr; ?></span> <dd class="npersons_cont npLabel_visible">
                                             </dd>
                                             </div>
                                             <div class="form-wrapper">

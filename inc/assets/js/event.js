@@ -328,7 +328,11 @@ $(document).ready(function (e) {
         }
       }
     }
-
+    if($('#rsvp_names_build').text() && $('#rsvp_guests_build').text()){
+      rsvp_name = $('#rsvp_names_build').text();
+      rsvp_guests = $('#rsvp_guests_build').text();
+      isValid = true;
+    }
     if (isValid) {
       // rsvp_name = Base64.encode("" + rsvp_name + "");
       // couple_name = Base64.encode("" + couple_name + "");
