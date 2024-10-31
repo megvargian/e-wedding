@@ -567,11 +567,12 @@
                                 <div class="story_slide_wrapper">
                                     <h1 class="title">Be Our Guest</h1>
                                     <h2 class="title">
-                                        <?php echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
+                                        <?php //echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
+                                        <pre><?php print_r( $_SERVER['QUERY_STRING']); ?></pre>
                                     </h2>
                                     <div class="slide-content">
                                         <div class="form-intro-wrapper">
-                                            Number of person: <?php echo $_GET['nbpr']; ?> <dd class="npersons_cont npLabel_visible">
+                                            Number of person: <?php //echo $_GET['nbpr']; ?> <dd class="npersons_cont npLabel_visible">
                                         </dd>
                                         <div class="form-intro-wrapper">
                                             Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
