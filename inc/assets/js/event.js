@@ -330,7 +330,7 @@ $(document).ready(function (e) {
     }
     if($('#rsvp_names_build').text() && $('#rsvp_guests_build').text()){
       rsvp_name = $('#rsvp_names_build').text();
-      rsvp_guests = $('#rsvp_guests_build').text();
+      rsvp_npersons = $('#rsvp_guests_build').text();
       isValid = true;
     }
     if (isValid) {
