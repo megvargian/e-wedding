@@ -572,7 +572,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
                                         <h2 class="title">
-                                            <?php echo $first_name . '&' . $second_name; ?>
+                                            <?php echo $first_name . ' & ' . $second_name; ?>
                                         </h2>
                                         <div class="slide-content">
                                             <div class="form-intro-wrapper">
@@ -618,7 +618,7 @@
 
                                                     <input name="couple_name" value="Simon&amp;Rita" type="hidden">
                                                     <input id="rsvp_email" type="hidden" name="rsvp_email"
-                                                        value="kouyoumdjianmike@gmail.com" />
+                                                        value="kouyoumdjianmike@gmail.com, gacia_g1997@hotmail.com" />
                                                     <input id="wed_date" name="wed_date" value="2024-11-23 17:00:00"
                                                         type="hidden">
                                                     <input id="nid" name="nid" value="320" type="hidden">
