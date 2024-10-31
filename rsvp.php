@@ -17,19 +17,49 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // $data now contains the decoded JSON data as an associative array
 }
 
-require_once 'vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$transport = (new Swift_SmtpTransport('mail-server.h2mdns.net', 465))
-    ->setUsername('simonrita@m.h2m.me')
-    ->setPassword('X2(o.k~@eEcy');
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
 
-$mailer = new Swift_Mailer($transport);
 
-$message = (new Swift_Message('Test Subject'))
-    ->setFrom(['simonrita@m.h2m.me' => 'Your Name'])
-    ->setTo(['Kouyoumdjianmike@gmail.com' => 'Recipient Name'])
-    ->setBody('<p>This is a <b>test email</b> sent with SwiftMailer.</p>', 'text/html')
-    ->addPart('This is a test email sent with SwiftMailer.', 'text/plain');
+function sendEmail($to, $subject, $message)
+{
+    // ob_start(); // Start output buffering
 
-$result = $mailer->send($message);
-echo $result ? 'Message sent successfully' : 'Failed to send message';
+    $mail = new PHPMailer();
+    $mail->IsSMTP();
+    $mail->Mailer = "smtp";
+    $mail->SMTPDebug  = 1;
+    $mail->SMTPAuth   = TRUE;
+    $mail->SMTPSecure = "ssl";
+    $mail->Port       = 465;
+    $mail->Host       = "mail-server.h2mdns.net";
+    $mail->Username   = "simonrita@m.h2m.me";
+    $mail->Password   = "X2(o.k~@eEcy";
+    $mail->IsHTML(true);
+    $mail->AddAddress($to, "RSVP SIMON AND RITA");
+    $mail->SetFrom("simonrita@m.h2m.me", "SIMON AND RITA");
+    // $mail->AddReplyTo($to, "reply-to-name");
+    // $mail->AddCC("cc-recipient-email@domain", "cc-recipient-name");
+    $mail->Subject = $subject;
+    $content = $message;
+    $mail->MsgHTML($content);
+
+    if ($mail->send()) {
+        // ob_end_clean(); // Discard the output buffer
+        header("HTTP/1.1 200 OK");
+    } else {
+        echo "Error sending email";
+    }
+}
+
+sendEmail(
+    $data['email'],
+    "RSVP SIMON AND RITA",
+    "<b>  name:" . $data['name'] . "</b>" .
+        "<b>  isAttending:" . $data['guests'] . "  </b>" .
+        "<b>  numberof guests:" . $data['n_persons'] . "  </b>"
+);
