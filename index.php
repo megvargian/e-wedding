@@ -567,7 +567,7 @@
                                 <div class="story_slide_wrapper">
                                     <h1 class="title">Be Our Guest</h1>
                                     <h2 class="title">
-                                        <?php 'Mr.' echo $_GET['first_name']; .' &amp; Ms.'. echo $_GET['second_name'];?>
+                                        <?php echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
                                     </h2>
                                     <div class="slide-content">
                                         <div class="form-intro-wrapper">
