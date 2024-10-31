@@ -572,7 +572,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
                                         <h2 class="title">
-                                            <?php echo 'Mr.'. $first_name .' &amp; Ms.'. $second_name ;?>
+                                            <?php echo 'Mr. '. $first_name .' &amp; Ms. '. $second_name ;?>
                                         </h2>
                                         <div class="slide-content">
                                             <div class="form-intro-wrapper">
@@ -611,9 +611,8 @@
                                                     </div> -->
 
                                                     <div class="form-field fld-message">
-                                                        <label for="message">Message</label>
+                                                        <label for="message">Share your Love and Wiches</label>
                                                         <textarea placeholder="Optional" id="message" name="message"></textarea>
-
                                                     </div>
 
                                                     <input name="couple_name" value="Simon&amp;Rita" type="hidden">
@@ -714,7 +713,7 @@
                                                             <option value="3">3</option>
                                                             <option value="4">4</option>
                                                         </select>
-                                                        <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" />
+                                                        <!-- <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" /> -->
                                                     </div>
                                                     <div class="form-field fld-name">
                                                         <label for="full_name">Name(s)</label>
