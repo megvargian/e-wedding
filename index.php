@@ -571,13 +571,7 @@
                                 <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
-                                        <h2 class="title">
-                                            <?php echo 'Mr. '. $first_name .' &amp; Ms. '. $second_name ;?>
-                                        </h2>
                                         <div class="slide-content">
-                                            <div class="form-intro-wrapper">
-                                                Number of person: <?php echo $nbpr ?> <dd class="npersons_cont npLabel_visible">
-                                            </dd>
                                             <div class="form-intro-wrapper">
                                                 Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
                                             </dd>
@@ -593,7 +587,7 @@
                                                             <option value="No">Not Attending</option>
                                                         </select>
                                                     </div>
-                                                    <!-- <div class="form-field fld-npersons" style="margin-top: 20px;">
+                                                    <div class="form-field fld-npersons" style="margin-top: 20px;">
                                                         <label for="npersons">Number of Attendees</label>
                                                         <select id="npersons" name="npersons">
                                                             <option value="">- select -</option>
@@ -602,18 +596,19 @@
                                                             <option value="3">3</option>
                                                             <option value="4">4</option>
                                                         </select>
-                                                        <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" />
-                                                    </div> -->
-                                                    <!-- <div class="form-field fld-name">
+                                                        <!-- <input placeholder="Number of Attendees" id="npersons" type="number" name="npersons" /> -->
+                                                    </div>
+                                                    <div class="form-field fld-name">
                                                         <label for="full_name">Name(s)</label>
                                                         <input placeholder="eg: Samer and Rana" id="full_name" type="text"
                                                             name="full_name" value="" />
-                                                    </div> -->
-
-                                                    <div class="form-field fld-message">
-                                                        <label for="message">Share your Love and Wiches</label>
-                                                        <textarea placeholder="Optional" id="message" name="message"></textarea>
                                                     </div>
+
+                                                    <!-- <div class="form-field fld-message">
+                                                        <label for="message">Message</label>
+                                                        <textarea placeholder="Optional" id="message" name="message"></textarea>
+
+                                                    </div> -->
 
                                                     <input name="couple_name" value="Simon&amp;Rita" type="hidden">
                                                     <input id="rsvp_email" type="hidden" name="rsvp_email"
