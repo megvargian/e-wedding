@@ -563,16 +563,20 @@
                             </div>
                             <!-- RSVP -->
                             <!-- slide -->
-                            <?php if(isset($_GET['first_name']) && $_GET['second_name'] &&  $_GET['nbpr']){?>
+                            <?php if(isset($_GET['first_name']) && $_GET['second_name'] &&  $_GET['nbpr']){
+                                 $first_name = sanitize_text_field($_GET['first_name']);
+                                 $second_name = sanitize_text_field($_GET['second_name']);
+                                 $nbpr = sanitize_text_field($_GET['nbpr']);
+                            ?>
                                 <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
                                         <h2 class="title">
-                                            <?php echo 'Mr.' $_GET['first_name']; .' &amp; Ms.'. $_GET['second_name'];?>
+                                            <?php echo 'Mr.'. $first_name .' &amp; Ms.'. $second_name ;?>
                                         </h2>
                                         <div class="slide-content">
                                             <div class="form-intro-wrapper">
-                                                Number of person: <?php echo $_GET['nbpr']; ?> <dd class="npersons_cont npLabel_visible">
+                                                Number of person: <?php echo $nbpr ?> <dd class="npersons_cont npLabel_visible">
                                             </dd>
                                             <div class="form-intro-wrapper">
                                                 Please reply before November 13, 2024 <dd class="npersons_cont npLabel_visible">
