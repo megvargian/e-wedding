@@ -258,6 +258,8 @@ $(document).ready(function (e) {
 
     var wed_date = $("input#wed_date").val();
 
+    var rsvp_message = $('#message').val();
+
     if (isNPvar) {
       rsvp_npersons = npCount;
     }
@@ -331,7 +333,7 @@ $(document).ready(function (e) {
     if($('#rsvp_names_build').text() && $('#rsvp_guests_build').text()){
       rsvp_name = $('#rsvp_names_build').text();
       rsvp_npersons = $('#rsvp_guests_build').text();
-      var rsvp_message = $('#message').val();
+      rsvp_message = $('#message').val();
       isValid = true;
     }
     if (isValid) {
