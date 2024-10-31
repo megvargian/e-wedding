@@ -89,7 +89,7 @@ $(document).ready(function (e) {
 
 		'draggable':false
 
-	
+
 
 	});*/
 
@@ -350,7 +350,7 @@ $(document).ready(function (e) {
       if (!$.cookie("RSVPstate")) {
         const data = _data;
         $.ajax({
-          url: "https://sarpysevents.com/rsvp/",
+          url: "https://m.h2m.me/rsvp/",
           type: "POST",
           data: JSON.stringify(data),
           contentType: "application/json",
