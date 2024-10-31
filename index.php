@@ -570,7 +570,7 @@
                                 <div class="story_slide rsvp isnp_enabled" style="overflow: hidden;">
                                     <div class="story_slide_wrapper">
                                         <h1 class="title">Be Our Guest</h1>
-                                        <h2 id="rsvp_names_build" class="title">
+                                        <h2 id="rsvp_names_build" class="title" style="font-size: 22px;">
                                             <?php echo $names; ?>
                                         </h2>
                                         <div class="slide-content">
