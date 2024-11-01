@@ -260,6 +260,12 @@ $(document).ready(function (e) {
 
     var rsvp_message = $('#message').val();
 
+    if(rsvp_guests == 'No'){
+      $('.ajax_success_message_wrapper').addClass('d-none');
+    } else {
+      $('.ajax_success_message_wrapper_if_not_Attending').addClass('d-none');
+    }
+
     if (isNPvar) {
       rsvp_npersons = npCount;
     }
@@ -666,13 +672,6 @@ function appHeight(opt) {
 }
 
 function RSVP_success_msg(msg) {
-  if(rsvp_guests == 'Yes'){
-    $('.ajax_success_message_wrapper_if_not_Attending').addClass('d-none');
-    $('.ajax_success_message_wrapper').removeClass('d-none');
-  } else {
-    $('.ajax_success_message_wrapper').addClass('d-none');
-    $('.ajax_success_message_wrapper_if_not_Attending').removeClass('d-none');
-  }
   $(".story_slide.rsvp .form-wrapper").addClass("onSuccess");
 
   $(".ajax_success_message_wrapper").html(msg);
