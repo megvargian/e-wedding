@@ -2776,3 +2776,7 @@ leafContainer.floral_white > div > img {
     font-size: 21px;
   }
 }
+
+.d-none{
+  display: none;
+}

@@ -500,7 +500,7 @@
                                     <div class="story_slide_wrapper">
                                         <h1 class="title visible-title">Gift Registry</span></h1>
                                         <div class="slide-content slideBody">
-                                            <p>For those who desire, a wedding account is available at <strong>Whish Money</strong></p>
+                                            <p>For those who wish, a wedding account is available at <strong>Whish Money</strong></p>
                                             <p>
                                                 <strong>Account Number</strong><br />
                                                 <em>#20414986</em><br />
@@ -645,6 +645,9 @@
                                                     <div class="ajax_success_message_wrapper">
                                                         <p>Thank you for your confirmation!<br />
                                                             See you there :)</p>
+                                                    </div>
+                                                    <div class="ajax_success_message_wrapper_if_not_Attending">
+                                                        <p>Thank you for your confirmation!</p>
                                                     </div>
                                                 </div>
                                             </div>
