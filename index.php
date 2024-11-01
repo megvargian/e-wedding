@@ -784,6 +784,9 @@
                                                         <p>Thank you for your confirmation!<br />
                                                             See you there :)</p>
                                                     </div>
+                                                    <div class="ajax_success_message_wrapper_if_not_Attending">
+                                                        <p>Thank you for your confirmation!</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
